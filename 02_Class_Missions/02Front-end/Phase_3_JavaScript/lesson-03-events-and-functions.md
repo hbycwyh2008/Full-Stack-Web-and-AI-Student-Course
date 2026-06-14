@@ -24,7 +24,7 @@ By the end of this lesson, each student should be able to:
 
 > **Prerequisite:** [Lesson 2](lesson-02-dom-selection-and-content.md) complete — DOM selection and click handlers work.
 
-> **Note:** [Lesson 5](lesson-05-debugging-and-fetch-preview.md) will add local `data.json`, debug logging, and AI-app connections. Today focuses on **Module 8 concepts** and one working `fetch` demo.
+> **Note:** **Lesson 5** will add local `data.json`, debug logging, and AI-app connections. Today focuses on **Module 8 concepts** and one working `fetch` demo.
 
 ---
 
@@ -237,7 +237,7 @@ You are successful if:
 
 ## Fast Track Option
 
-Continue into [Lesson 4](lesson-04-arrays-and-render-lists.md) in the same block only if Lesson 3 evidence is complete and teacher approves.
+Continue into **Lesson 4** in the same block only if Lesson 3 evidence is complete and your teacher approves.
 
 ---
 

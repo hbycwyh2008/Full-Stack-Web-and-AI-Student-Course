@@ -13,7 +13,7 @@
 > **Stack note:** This Udemy project uses **PostgreSQL + Drizzle + Server Actions + Docker**. Our capstone keeps **FastAPI** as the main backend. Learn **Cursor workflow and UI patterns** here; map API calls to FastAPI in `CAPSTONE_BRIDGE.md` (Lesson 10).
 
 > [!TIP]
-> **Easier reading:** Markdown preview (`Ctrl+Shift+V`) or GitHub. See [mission-display-guide.md](../shared/mission-display-guide.md) (adjust `../` depth if needed).
+> **Easier reading:** Markdown preview (`Ctrl+Shift+V`) or GitHub. See [mission-display-guide.md](../../shared/mission-display-guide.md) (adjust `../` depth if needed).
 
 ---
 

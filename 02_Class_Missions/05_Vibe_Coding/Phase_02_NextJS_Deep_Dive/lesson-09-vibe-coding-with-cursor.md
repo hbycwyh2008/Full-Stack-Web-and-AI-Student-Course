@@ -20,7 +20,7 @@ By the end of this lesson, each student should be able to:
 2. Complete Udemy **§5 Reusable Cursor Instructions: Notepads** (7 lectures · ~1 hr).
 3. Implement **server-side mutations** (move/create card per course) using Cursor with **spoon-fed** context.
 4. Create at least **one Notepad** (reusable Cursor instruction) for this project.
-5. Complete [cursor-reflection-template](../../../../03_Templates/cursor-reflection-template.md) in `vibe-coding/cursor-reflection.md` and follow [AI Usage Policy](../../../../04_Assessment/AI_Usage_Policy.md).
+5. Complete [cursor-reflection-template](../../../03_Templates/cursor-reflection-template.md) in `vibe-coding/cursor-reflection.md` and follow [AI Usage Policy](../../../04_Assessment/AI_Usage_Policy.md).
 6. **Independent rebuild:** hand-type one mutation (Server Action or `fetch` POST) in `vibe-coding/independent-rebuild/lesson-09/` — **no Cursor, no materials** — [INDEPENDENT_REBUILD.md](../INDEPENDENT_REBUILD.md).
 
 ---

@@ -6,7 +6,7 @@
 
 Open **one mission file per class** and follow it from top to bottom.
 
-> **Prerequisite:** Python 3.x installed; [Front-end Phase 4](../Front-end%20_web+knowledge/Phase_4_React_and_NextJS/) or equivalent `fetch` experience recommended.
+> **Prerequisite:** Python 3.x installed; [Front-end Phase 4](../02Front-end/Phase_4_React_and_NextJS/) or equivalent `fetch` experience recommended.
 
 > **Coursera:** [Introduction to FastAPI and Backend Development Fundamentals](https://www.coursera.org/learn/packt-introduction-to-fastapi-and-backend-development-fundamentals-7zg6w) — Course 1 of the [Ultimate Guide to FastAPI specialization](https://www.coursera.org/specializations/packt-ultimate-guide-to-fast-api-and-backend-development). **One Coursera module per class.**
 

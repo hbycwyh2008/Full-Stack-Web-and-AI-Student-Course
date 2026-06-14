@@ -7,7 +7,7 @@ Open **one mission file per class** and follow it from top to bottom. Each lesso
 > **Prerequisite:** [Phase 1 Notion Portfolio](../Phase_1_Notion_Portfolio/) and [Phase 2 Web Basics](../Phase_2_Web_Basics/) complete.
 
 > [!TIP]
-> **Easier reading:** Markdown preview (`Ctrl+Shift+V`) or GitHub. See [mission-display-guide.md](../shared/mission-display-guide.md) (adjust `../` depth if needed).
+> **Easier reading:** Markdown preview (`Ctrl+Shift+V`) or GitHub. See [mission-display-guide.md](../../shared/mission-display-guide.md) (adjust `../` depth if needed).
 
 ---
 
@@ -18,9 +18,9 @@ Open **one mission file per class** and follow it from top to bottom. Each lesso
 | 1 | [lesson-01-javascript-in-the-browser.md](lesson-01-javascript-in-the-browser.md) | Scrimba: [Programming Foundations](https://v1.scrimba.com/playlist/pQxQdTM) (5 scrims, ~25 min) |
 | 2 | [lesson-02-dom-selection-and-content.md](lesson-02-dom-selection-and-content.md) | Coursera [JavaScript Deep Dive](https://www.coursera.org/learn/javascript-deep-dive) — **Module 7: The DOM** (~1 h) |
 | 3 | [lesson-03-events-and-functions.md](lesson-03-events-and-functions.md) | Coursera [JavaScript Deep Dive](https://www.coursera.org/learn/javascript-deep-dive) — **Module 8: Asynchronous JavaScript** (~1 h) |
-| 4 | [lesson-04-arrays-and-render-lists.md](lesson-04-arrays-and-render-lists.md) | MDN: Arrays |
-| 5 | [lesson-05-debugging-and-fetch-preview.md](lesson-05-debugging-and-fetch-preview.md) | MDN: Debugging + Network requests |
-| 6 | [lesson-06-independent-rebuild-and-submission.md](lesson-06-independent-rebuild-and-submission.md) | **Your repo** — mastery check |
+| 4 | *Your teacher will share Lesson 4* | MDN: Arrays |
+| 5 | *Your teacher will share Lesson 5* | MDN: Debugging + Network requests |
+| 6 | *Your teacher will share Lesson 6* | **Your repo** — mastery check |
 
 **Track B (standard / new to coding):** use [module-03-javascript-interactive-profile.md](../module-03-javascript-interactive-profile.md) + Coursera Learn JavaScript.
 

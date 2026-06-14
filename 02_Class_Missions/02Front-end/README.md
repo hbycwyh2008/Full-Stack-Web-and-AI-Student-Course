@@ -46,7 +46,7 @@ Start: [Phase_4_React_and_NextJS/README.md](Phase_4_React_and_NextJS/README.md)
 
 | Module | File | Suggested time | Main evidence |
 |---|---|---:|---|
-| HTML/CSS card | [module-02-html-css-digital-business-card.md](module-02-html-css-digital-business-card.md) | 6 classes | Digital business card |
+| HTML/CSS card | [Phase 2 Web Basics missions](Phase_2_Web_Basics/) | 6 classes | Digital business card |
 | JS overview (Track B) | [module-03-javascript-interactive-profile.md](module-03-javascript-interactive-profile.md) | 8–10 classes | Interactive profile |
 | ~~React~~ | [module-04-react-component-portfolio.md](module-04-react-component-portfolio.md) | → **Phase 4** | See Phase 4 folder |
 

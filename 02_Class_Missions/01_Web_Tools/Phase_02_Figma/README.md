@@ -8,12 +8,12 @@
 
 Open **one mission file per class** and follow it from top to bottom.
 
-> **Prerequisite:** [Phase 01 Git](../Phase_01_Git/) + [Phase 1 Notion](../../Front-end%20_web+knowledge/Phase_1_Notion_Portfolio/) (repo + portfolio). **AI Literacy** recommended but not required before Figma.
+> **Prerequisite:** [Phase 01 Git](../Phase_01_Git/) + [Phase 1 Notion](../../02Front-end/Phase_1_Notion_Portfolio/) (repo + portfolio). **AI Literacy** recommended but not required before Figma.
 
 > **No “Figma Crash Course” on Coursera** — this track uses **short Guided Projects** + **Figma official intro** + **capstone screens** in class.
 
 > [!TIP]
-> **Easier reading:** Markdown preview (`Ctrl+Shift+V`) or GitHub. See [mission-display-guide.md](../shared/mission-display-guide.md) (adjust `../` depth if needed).
+> **Easier reading:** Markdown preview (`Ctrl+Shift+V`) or GitHub. See [mission-display-guide.md](../../shared/mission-display-guide.md) (adjust `../` depth if needed).
 
 ---
 

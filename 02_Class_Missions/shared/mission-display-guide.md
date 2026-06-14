@@ -98,7 +98,7 @@ Keep the page short; expand when submitting:
 ```markdown
 | Lesson | File |
 |---|---|
-| 1 | [lesson-01.md](lesson-01.md) |
+| 1 | `lesson-01.md` |
 ```
 
 **Bad:** blank line after each table row.

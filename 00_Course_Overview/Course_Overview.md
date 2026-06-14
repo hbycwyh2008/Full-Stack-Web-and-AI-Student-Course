@@ -6,7 +6,7 @@
 
 Students progress: **Git → Notion → AI Literacy → AI Math Bridge → Figma → TypeScript → Next.js → lightweight FastAPI → RAG → integration → Cursor → AI School Assistant**.
 
-**Students begin at:** [STUDENT_START_HERE.md](../STUDENT_START_HERE.md) · **Evidence requirements:** [Evidence_System.md](../04_Assessment/Evidence_System.md) · **Teacher readiness:** [Course_Implementation_Checklist.md](Course_Implementation_Checklist.md)
+**Students begin at:** [STUDENT_START_HERE.md](../STUDENT_START_HERE.md) · **Evidence requirements:** [Evidence_System.md](../04_Assessment/Evidence_System.md) · **Course pacing:** [Course_Pacing_Guide.md](Course_Pacing_Guide.md)
 
 ---
 

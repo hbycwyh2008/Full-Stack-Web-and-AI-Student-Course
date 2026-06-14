@@ -20,6 +20,7 @@ Then explore:
 | [03_Templates/](03_Templates/) | Copy into your personal repository |
 | [04_Assessment/](04_Assessment/) | Evidence system, rubrics, and expectations |
 | [05_Resources/](05_Resources/) | AI Literacy, Math Bridge, Git unit, and more |
+| [08_Public_Documents/](08_Public_Documents/Student_Overview.md) | Course overview and classroom posters |
 
 ---
 

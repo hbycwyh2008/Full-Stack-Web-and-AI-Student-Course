@@ -25,7 +25,7 @@ flowchart TB
 | Web Tools | [01_Web_Tools/](01_Web_Tools/) | 11 (+1 opt) |
 | Front-end | [02Front-end/](02Front-end/) | 20 |
 | AI Literacy | [04AI_Literacy/](04AI_Literacy/) | 6 |
-| Back-end | [03Back-end/](03Back-end/) or [Minimal_Back-end/](Minimal_Back-end/) | 10 |
+| Back-end | [03Back-end/](03Back-end/) | 10 |
 | Vibe Coding | [05_Vibe_Coding/](05_Vibe_Coding/) | 10 |
 
 ---
@@ -87,7 +87,7 @@ Resource: [AI for Everyone](https://www.deeplearning.ai/courses/ai-for-everyone)
 
 ## 03 Back-end — FastAPI + Database (10 classes)
 
-Start: [03Back-end/README.md](03Back-end/README.md) or [Minimal_Back-end/README.md](Minimal_Back-end/README.md)
+Start: [03Back-end/README.md](03Back-end/README.md)
 
 | Phase | Lessons |
 |---|---|

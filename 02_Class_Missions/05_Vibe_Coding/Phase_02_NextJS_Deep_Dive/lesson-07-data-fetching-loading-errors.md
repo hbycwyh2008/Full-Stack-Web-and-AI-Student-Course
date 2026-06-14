@@ -18,7 +18,7 @@ By the end of this lesson, each student should be able to:
 
 1. Complete Udemy **§2 Building the Project User Interface** (5 lectures · ~49 min).
 2. Build or prompt-build a **responsive Kanban UI** with **shadcn/ui** (dark/light theme per course).
-3. Map UI columns/cards to your [Figma user flow](../../../01_Web_Tools/Phase_02_Figma/) (handbook assistant screens).
+3. Map UI columns/cards to your [Figma user flow](../../01_Web_Tools/Phase_02_Figma/) (handbook assistant screens).
 4. Use Cursor to implement **one UI slice** only after writing a short plan.
 5. Submit running UI screenshot and commit.
 6. **Independent rebuild:** hand-type Kanban column UI in `vibe-coding/independent-rebuild/lesson-07/` — [INDEPENDENT_REBUILD.md](../INDEPENDENT_REBUILD.md).
@@ -48,7 +48,7 @@ flowchart LR
 
 Complete all **5 lectures** in this section (expand in Udemy sidebar).
 
-Cross-check [Figma Phase 02](../../../01_Web_Tools/Phase_02_Figma/) — layout, spacing, and loading placeholders.
+Cross-check [Figma Phase 02](../../01_Web_Tools/Phase_02_Figma/) — layout, spacing, and loading placeholders.
 
 **Individual notes:**
 
