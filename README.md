@@ -1,75 +1,45 @@
 # Full-Stack Web and AI Student Course
 
-This is the **student-facing course repository** for Full-Stack Web and AI Application Development.
+Welcome. This is the student-facing course repository for high-school students learning full-stack web and AI application development.
 
-Use this repository to read course missions, templates, assessment expectations, and resources. Your teacher maintains this repo — you do not need to fork or clone it to submit work.
+**Start here:** [student-start-here.md](student-start-here.md)
 
----
+## Read-Only Course Repo
 
-## Start Here
+This repo is read-only for students. Your own work goes in your personal GitHub repository.
 
-**→ [STUDENT_START_HERE.md](STUDENT_START_HERE.md)**
+Use this repo to read missions, copy templates, and check submission rules. Do not submit your class work here.
 
-Then explore:
+## Course Pathway
 
-| Folder | Purpose |
-|---|---|
-| [00_Course_Overview/](00_Course_Overview/) | Course goals, pacing, and pathway |
-| [01_Student_Start/](01_Student_Start/) | GitHub, Notion, evidence, and AI policy setup |
-| [02_Class_Missions/](02_Class_Missions/README.md) | Open during class — your task sheets |
-| [03_Templates/](03_Templates/) | Copy into your personal repository |
-| [04_Assessment/](04_Assessment/) | Evidence system, rubrics, and expectations |
-| [05_Resources/](05_Resources/) | AI Literacy, Math Bridge, Git unit, and more |
-| [08_Public_Documents/](08_Public_Documents/Student_Overview.md) | Course overview and classroom posters |
+1. GitHub + Notion
+2. AI Literacy
+3. HTML/CSS Basics
+4. JavaScript Basics
+5. React Basics
+6. Next.js Frontend
+7. FastAPI Backend
+8. Next.js + FastAPI Integration
+9. Cursor-assisted Capstone
+10. Final Portfolio Showcase
 
----
+Optional / teacher-selected extensions: Figma, AI Math Bridge, extra database practice, and deeper RAG concepts near the capstone.
 
-## How to Use This Repository
+## Quick Links
 
-1. Read the weekly agenda and class missions your teacher assigns.
-2. Copy templates from [03_Templates/](03_Templates/) into **your own GitHub repository**.
-3. Complete assignments in **your personal repo** or assignment repo — not here.
-4. Submit your repository link as instructed by your teacher.
+- [Student Start Here](student-start-here.md)
+- [Course Map](course-map.md)
+- [Class Missions](class-missions/README.md)
+- [Weekly Learning Flow](weekly-learning-flow.md)
+- [Evidence Levels](evidence-levels.md)
+- [AI Use Policy](ai-use-policy.md)
+- [Submission Guide](submission-guide.md)
+- [Troubleshooting Guide](student-troubleshooting-guide.md)
 
----
+## Course Philosophy
 
-## Important
+This course is portfolio-first, evidence-based, and mastery-focused. AI can help you learn, debug, and review, but it cannot replace your understanding. You must be able to explain, rebuild, debug, modify, and apply the patterns you submit.
 
-This repository is for students to read course materials and access class missions.  
-Do not push changes to this repository.  
-Your own work should be completed in your personal GitHub repository or assignment repository.
+GitHub stores your process evidence. Notion shows your polished portfolio work.
 
----
-
-## Course Summary
-
-A **portfolio-first**, **evidence-based**, **mastery-focused** course in full-stack web and AI application development. You will build real projects, document learning on GitHub and Notion, and prove you can **explain, rebuild, debug, modify, and apply** each core pattern.
-
-**Final project:** AI School Assistant — a document-grounded Q&A web app with sources.
-
----
-
-## Learning Flow
-
-```text
-Git & GitHub → Notion Portfolio → AI Literacy → AI Math Bridge
-→ Figma → TypeScript → Next.js → FastAPI → RAG Concepts
-→ Full-Stack Integration → Cursor Capstone → AI School Assistant
-```
-
----
-
-## Evidence and Mastery
-
-| Concept | Document |
-|---|---|
-| **Learning evidence** | [Evidence System](04_Assessment/Evidence_System.md) |
-| **Class mission** | [02_Class_Missions/](02_Class_Missions/README.md) |
-| **Mastery** (explain · rebuild · debug · modify · apply) | [mastery-levels](02_Class_Missions/shared/mastery-levels.md) |
-| **AI usage note** | [AI Use Policy for Students](01_Student_Start/04_AI_Use_Policy_For_Students.md) |
-
-```text
-This course repo  →  what to do
-Your GitHub       →  learning evidence (code, reflection, revision record)
-Notion            →  public portfolio
-```
+Educational materials are copyright © 2026 Wang Morgan. All rights reserved. Students may use these materials for this course. Redistribution or commercial reuse requires permission.

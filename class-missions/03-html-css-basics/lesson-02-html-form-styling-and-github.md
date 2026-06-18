@@ -1,0 +1,149 @@
+# Lesson 2: Form Styling and GitHub Evidence
+
+## Lesson Goal
+
+By the end of this lesson, each student should be able to:
+
+1. Style the contact form with CSS (linked file or `<style>` block).
+2. Customize at least three properties beyond the MDN default example.
+3. Name the three `name` attributes and explain what data the form would send.
+4. Add folder `README.md` documenting the project.
+5. Make at least two meaningful commits across Lessons 1–2.
+6. Submit complete Phase 2 evidence on GitHub.
+
+## Required Resource
+
+Open only the resource named in `Individual Learning`. If the resource is longer than 15 minutes, complete the assigned section in class and finish the rest as homework if your teacher assigns it.
+
+## What to Focus On
+
+Focus on the pattern you need for today's mission. Do not collect extra tutorials during the first learning block.
+
+## Entry Point Check
+
+Use the first 10 minutes to answer these before new instruction:
+
+- What do I already know that connects to today?
+- What file, tool, or concept should I open first?
+- What is one question I need answered before the mission?
+
+## Individual Learning
+
+> [!NOTE]
+> **One required resource** for this block — see below. Do not browse extra playlists during class.
+
+**Step A — MDN reading:**
+
+1. Open: https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Your_first_form
+2. Read only:
+   - Basic form styling
+   - Sending form data to your web server
+   - Summary
+
+**Individual notes:**
+
+```text
+Three name attributes on my form are...
+Three name/value pairs sent are...
+One CSS rule I will change is...
+fetch/server is not required today because...
+One thing I still do not understand is...
+```
+
+## Talk Robin
+
+**Share:**
+
+1. HTML gives structure; CSS gives style because...
+2. What `user_name`, `user_email`, `user_message` mean
+3. One design choice you made
+4. One question
+
+## Group Answer
+
+```text
+Our form is ready to submit as evidence when...
+Our group still needs help with...
+```
+
+## Teacher Clarification
+
+**Teacher checks:**
+
+1. Lesson 1 HTML complete?
+2. CSS linked correctly?
+3. Students know difference between `get` and `post` at high level?
+
+The teacher explains only the common stuck points before the mission task.
+
+## Mission Task
+
+**Task:**
+
+1. Add MDN basic form CSS to `style.css` or `<head>` `<style>`.
+2. Change **at least three** of: colors, border-radius, fonts, spacing, button style.
+3. Add `README.md`:
+
+```md
+# HTML/CSS First Form
+
+## What This Is
+Contact form from MDN Your first form tutorial.
+
+## Form Data
+- user_name
+- user_email
+- user_message
+
+## What I Learned
+```
+
+4. Commit: `Style contact form and add README`.
+5. Optional: add link in Notion Learning Projects.
+
+## Independent Rebuild
+
+Point to one HTML tag, one CSS rule, and three `name` attributes without notes.
+
+Close full-solution references before this block. You may use your own short checklist, but do not copy a completed answer.
+
+## Evidence to Submit
+
+1. Screenshot of styled form
+2. GitHub folder with `index.html`, CSS, `README.md`
+3. Two+ meaningful commits across Phase 2 lessons
+4. Written answer: three name/value pairs your form sends
+5. One sentence: “This form is like our AI app because...”
+
+## Success Criteria
+
+1. CSS visibly improves the form.
+2. README complete in student’s own words.
+3. Can explain `name` attributes and HTML vs CSS.
+4. All evidence submitted.
+
+## Common Problems
+
+| Problem | Try first |
+|---|---|
+| CSS not applied | Check `<link href="style.css">` path. |
+| Copied MDN exactly | Change at least three visual properties. |
+| Missing names | Add `name` to every data field. |
+
+## Fast Track / Support Track
+
+Fast track:
+
+Preview [Phase 3 JavaScript](../04-javascript-basics/) if Phase 2 evidence is complete and teacher approves.
+
+## After Phase 2
+
+Next: [Phase 3: JavaScript](../04-javascript-basics/)
+
+Support track:
+
+- Complete the smallest working version first.
+- Ask for a hint after you can show what you tried.
+- Submit honest evidence of progress if the full mission is not finished.
+
+Educational materials are copyright © 2026 Wang Morgan. All rights reserved. Students may use these materials for this course. Redistribution or commercial reuse requires permission.
