@@ -18,22 +18,20 @@ Check the current phase and weekly flow:
 - [weekly-learning-flow.md](weekly-learning-flow.md)
 - [current-phase-template.md](current-phase-template.md)
 
-## Current Phase
+## Current Unit
 
 The course follows this sequence:
 
-1. GitHub + Notion
-2. AI Literacy
-3. HTML/CSS Basics
-4. JavaScript Basics
-5. React Basics
-6. Next.js Frontend
-7. FastAPI Backend
-8. Next.js + FastAPI Integration
-9. Cursor-assisted Capstone
-10. Final Portfolio Showcase
+0. Tool Layer — GitHub, Markdown, Notion Web
+1. HTML, CSS, and JavaScript Crash Foundation
+2. React Frontend Basics with Vite
+3. Python Foundations
+4. Kaggle, pandas, and Data Processing
+5. Machine Learning Workflow
+6. FastAPI Backend for AI Apps
+7. Final AI Web App Projects
 
-Optional / teacher-selected: Figma and AI Math Bridge. These are not blockers before web development.
+Optional / teacher-selected: Figma, AI Literacy, AI Math Bridge, Next.js, databases, and Cursor deep dives. These are not blockers for the CS1 core path.
 
 ## Submit Evidence
 
@@ -41,7 +39,7 @@ Use the evidence level named in your mission:
 
 - Daily Evidence: small proof from today.
 - Phase Checkpoint Evidence: working artifact plus README, commits, reflection, and AI usage note if used.
-- Final Project Evidence: live demo, full documentation, revision history, portfolio page, and AI usage documentation.
+- Final Project Evidence: House Price or MNIST demo, full documentation, testing table, revision history, portfolio page, model limitation note, and AI usage documentation.
 
 Read: [evidence-levels.md](evidence-levels.md) and [submission-guide.md](submission-guide.md).
 
@@ -70,6 +68,6 @@ Running code once is not enough. Mastery means you can explain, rebuild, debug, 
 
 ## AI Rule
 
-AI is allowed for hints, explanation, debugging, and review. You cannot submit AI-generated work you cannot explain. See [ai-use-policy.md](ai-use-policy.md).
+AI is allowed for hints, explanation, debugging, and review. You cannot submit AI-generated work you cannot explain. A machine learning model cannot replace your own explainable student-written logic. See [ai-use-policy.md](ai-use-policy.md).
 
 Educational materials are copyright © 2026 Wang Morgan. All rights reserved. Students may use these materials for this course. Redistribution or commercial reuse requires permission.

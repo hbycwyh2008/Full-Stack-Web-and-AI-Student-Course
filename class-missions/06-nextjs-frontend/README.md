@@ -1,6 +1,8 @@
-# Next.js Frontend
+# Next.js Frontend — Optional Extension
 
-Use App Router pages and layouts
+This folder is retained for teachers who intentionally extend beyond the updated CS1 path.
+
+Updated CS1 uses **React + Vite**, not Next.js. Do not assign this folder as a required CS1 unit.
 
 ## Lessons
 

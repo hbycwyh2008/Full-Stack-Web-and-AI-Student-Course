@@ -10,23 +10,23 @@ Open this folder during class. Your teacher will tell you the current phase and 
 - Submit Evidence: follow the mission section named `Evidence to Submit`.
 - If You Are Stuck: read the mission `Common Problems`, then use `student-troubleshooting-guide.md`.
 
-## Unified Course Sequence
+## Unified CS1 Sequence
 
-| Phase | Folder | Goal |
+| Unit | Folder | Goal |
 |---|---|---|
-| GitHub + Notion | [01-github-notion/](01-github-notion/) | Create repo, README, commits, and portfolio home |
-| AI Literacy | [02-ai-literacy/](02-ai-literacy/) | Use AI responsibly and disclose help |
-| HTML/CSS Basics | [03-html-css-basics/](03-html-css-basics/) | Build simple structured pages |
-| JavaScript Basics | [04-javascript-basics/](04-javascript-basics/) | Make browser pages interactive |
-| React Basics | [05-react-basics/](05-react-basics/) | Build components with props and state |
-| Next.js Frontend | [06-nextjs-frontend/](06-nextjs-frontend/) | Use App Router pages and layouts |
-| FastAPI Backend | [07-fastapi-backend/](07-fastapi-backend/) | Build API routes and models |
-| Next.js + FastAPI Integration | [08-nextjs-fastapi-integration/](08-nextjs-fastapi-integration/) | Connect frontend and backend |
-| Cursor-assisted Capstone | [09-cursor-capstone/](09-cursor-capstone/) | Use Cursor after understanding the stack |
-| Final Portfolio Showcase | [10-final-portfolio-showcase/](10-final-portfolio-showcase/) | Present evidence and portfolio |
+| Unit 0 Tool Layer | [01-github-notion/](01-github-notion/) | Create repo, README, commits, Notion portfolio, AI use log |
+| Unit 1 HTML/CSS | [03-html-css-basics/](03-html-css-basics/) | Build simple structured pages |
+| Unit 1 JavaScript | [04-javascript-basics/](04-javascript-basics/) | Make browser pages interactive and complete Mini AI App Mockup |
+| Unit 2 React + Vite | [05-react-basics/](05-react-basics/) | Build components with props, state, forms, lists, and `fetch()` |
+| Unit 3 Python Foundations | [06-python-foundations/](06-python-foundations/) | Write practical Python functions, tests, and debugging notes |
+| Unit 4 Kaggle/Data | [07-kaggle-data-processing/](07-kaggle-data-processing/) | Practice pandas inspection workflow |
+| Unit 5 ML Workflow | [08-machine-learning-workflow/](08-machine-learning-workflow/) | Train simple models and explain evaluation/limitations |
+| Unit 6 FastAPI for AI Apps | [09-fastapi-ai-backend/](09-fastapi-ai-backend/) | Return prediction JSON from Python/model code |
+| Unit 7 Final AI Web Apps | [10-final-ai-web-app-projects/](10-final-ai-web-app-projects/) | House Price final app and optional MNIST showcase |
+| Optional AI Literacy | [02-ai-literacy/](02-ai-literacy/) | Use AI responsibly and disclose help |
 | Optional Figma | [optional-figma/](optional-figma/) | Lightweight design planning when assigned |
 
-Optional tracks are clearly labeled. Figma and AI Math Bridge are not required blockers before web development.
+Optional tracks are clearly labeled. Figma, AI Literacy, AI Math Bridge, Next.js, databases, and Cursor deep dives are not required blockers in the updated CS1 core.
 
 ## Shared Guides
 

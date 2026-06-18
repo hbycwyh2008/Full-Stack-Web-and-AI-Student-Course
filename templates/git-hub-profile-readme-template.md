@@ -7,25 +7,27 @@ Copy this and replace the placeholder text.
 ```markdown
 # Hi, I'm [Your Name]
 
-I'm a high school student learning full-stack web and AI application development.
+I'm a high school student learning web, Python, data, and AI application foundations.
 
 ## About Me
 
 - Grade: [your grade]
-- Currently learning: React, Next.js, FastAPI, and AI app development
-- Goal: Build useful web apps and explain how they work
+- Currently learning: React, Python, FastAPI, and machine learning workflow
+- Goal: Build useful AI web apps and explain how they work
 
 ## Tools and Skills
 
 - Languages: Python, JavaScript
-- Frontend: React and Next.js
+- Frontend: HTML/CSS/JS and React + Vite
 - Backend: FastAPI
+- Data / ML: pandas, Kaggle, scikit-learn
 - Tools: Git, GitHub, Cursor, Notion
 
 ## Featured Projects
 
 - Project Name: [add repo or portfolio link here] — one-line description
-- AI School Assistant: [add final capstone link here] — final capstone project
+- House Price Prediction Web App: [add final project link here] — core final AI web app
+- MNIST Digit Recognition: [add optional showcase link here] — optional AI showcase
 
 ## How I Use AI
 

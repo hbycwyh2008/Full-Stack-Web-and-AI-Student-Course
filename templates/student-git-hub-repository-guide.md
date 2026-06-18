@@ -12,33 +12,33 @@ Your personal GitHub repository stores your learning process. This course repo i
 profile/
 reflections/
 github-notion/
-ai-literacy/
-html-css-basics/
-javascript-basics/
-react-basics/
-nextjs-frontend/
-fastapi-backend/
-nextjs-fastapi-integration/
-capstone/
+mini-ai-app-mockup/
+react-practice/
+react-ai-interface/
+python-foundations/
+data-processing/
+ml-workflow/
+fastapi-ai-backend/
+house-price-ai-app/
+mnist-showcase/
 portfolio/
+ai-literacy/
 optional-figma/
 optional-ai-math-bridge/
 ```
 
 ## Main Course Sequence
 
-1. GitHub + Notion
-2. AI Literacy
-3. HTML/CSS Basics
-4. JavaScript Basics
-5. React Basics
-6. Next.js Frontend
-7. FastAPI Backend
-8. Next.js + FastAPI Integration
-9. Cursor-assisted Capstone
-10. Final Portfolio Showcase
+0. Tool Layer — GitHub, Markdown, Notion Web
+1. HTML, CSS, and JavaScript Crash Foundation
+2. React Frontend Basics with Vite
+3. Python Foundations
+4. Kaggle, pandas, and Data Processing
+5. Machine Learning Workflow
+6. FastAPI Backend for AI Apps
+7. Final AI Web App Projects
 
-Optional / teacher-selected extensions: Figma and AI Math Bridge. TypeScript appears lightly when needed. RAG concepts appear near the capstone.
+Optional / teacher-selected extensions: AI Literacy, Figma, AI Math Bridge, Next.js, databases, deployment, and Cursor deep dives.
 
 ## What Goes in Each Phase Folder
 
@@ -59,8 +59,8 @@ Use messages that explain the change:
 - `Build HTML form structure`
 - `Fix JavaScript button click bug`
 - `Create first React component`
-- `Connect Next.js page to FastAPI route`
-- `Document AI usage for capstone revision`
+- `Connect React form to FastAPI prediction route`
+- `Document AI usage for House Price revision`
 
 Avoid `update`, `final`, `stuff`, or one giant commit for a whole project.
 
@@ -81,6 +81,6 @@ Daily Evidence is small: a link, screenshot, short note, or commit.
 
 Phase Checkpoint Evidence includes a working artifact, README, commit history, reflection, and AI usage note if used.
 
-Final Project Evidence includes live demo, full README, technical report, reflection, revision history, portfolio page, and AI usage documentation.
+Final Project Evidence includes House Price or MNIST demo, full README, testing table, model limitation reflection, revision history, portfolio page, and AI usage documentation.
 
 Educational materials are copyright © 2026 Wang Morgan. All rights reserved. Students may use these materials for this course. Redistribution or commercial reuse requires permission.

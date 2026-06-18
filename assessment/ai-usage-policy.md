@@ -12,6 +12,8 @@ Students must **not** treat lessons as typing-along exercises. Following steps w
 
 See `Student_Learning_Expectations.md` in this folder for required habits and evidence.
 
+In ML projects, a trained model or AI-generated code does not replace the student's own explainable work. Students must still write and explain their own logic, such as input validation, result interpretation, category/risk labeling, testing functions, or prediction explanations.
+
 ---
 
 ## Allowed AI Use
@@ -38,6 +40,7 @@ Students may not:
 - use AI to bypass learning
 - follow along typing without reading or understanding the code
 - ask for fixes without attempting to debug first (include what you tried)
+- present an ML model as if it were their own student-developed algorithm
 
 ---
 
@@ -61,6 +64,7 @@ What did I personally modify?
 How did I test the result?
 What parts do I fully understand?
 What parts do I still need to review?
+What student-written logic can I explain without AI?
 ```
 
 ---

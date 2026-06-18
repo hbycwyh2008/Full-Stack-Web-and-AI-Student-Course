@@ -4,24 +4,22 @@ Use this list only when a class mission points to a resource. Do not turn the fi
 
 ## Main Pathway Resources
 
-| Phase | Resource type | Class use |
+| Unit | Resource type | Class use |
 |---|---|---|
-| GitHub + Notion | GitHub Skills, short GitHub/Markdown references | Assigned lesson section only |
-| AI Literacy | DeepLearning.AI AI literacy resources or teacher-selected readings | Short segment plus notes |
-| HTML/CSS Basics | MDN or teacher-selected starter guide | One concept at a time |
-| JavaScript Basics | Browser JS/DOM guide | Short reading plus build task |
-| React Basics | Learn React module sections | Split long modules across classwork and homework |
-| Next.js Frontend | Next.js docs or teacher-selected lesson | Focus on App Router basics |
-| FastAPI Backend | FastAPI docs/tutorial sections | Focus on one API pattern per class |
-| Integration | Next.js + FastAPI bridge resource | Build browser-to-API success |
-| Cursor Capstone | Cursor guidance after stack basics | Hints, debugging, review, and planning |
-| Showcase | Portfolio examples and presentation checklist | Polish and explain evidence |
+| Tool Layer | GitHub Skills, short GitHub/Markdown references | Assigned lesson section only |
+| HTML/CSS/JS | Johns Hopkins HTML/CSS/JS selected sections, MDN support | One concept at a time; do not assign full course |
+| React + Vite | React docs or selected Learn React sections | JSX, components, props, state, forms, lists, `fetch()` |
+| Python | Michigan Python for Everybody, Kaggle Python | Practical syntax and task-based exercises |
+| Kaggle/Data | Kaggle Pandas | Data inspection workflow |
+| ML Workflow | Kaggle Intro to ML or teacher notebooks | `X`, `y`, train/test split, model fit/predict, evaluation |
+| FastAPI for AI Apps | FastAPI docs/tutorial sections | JSON request/response and prediction endpoint |
+| Final AI Web Apps | Teacher project scaffold and presentation checklist | House Price final app and MNIST showcase |
 
 ## Optional / Teacher-Selected
 
 - Figma: lightweight wireframes or user-flow planning.
+- AI Literacy: responsible AI readings and discussion prompts.
 - AI Math Bridge: vectors, matrices, similarity, or images-as-data mini labs.
-- RAG concepts: introduce near the capstone only when students need document-grounded Q&A.
-- TypeScript: introduce lightly when a Next.js example needs it.
+- Next.js, databases, RAG, TypeScript, and Cursor deep dives: later-course enrichment only.
 
 Educational materials are copyright © 2026 Wang Morgan. All rights reserved. Students may use these materials for this course. Redistribution or commercial reuse requires permission.

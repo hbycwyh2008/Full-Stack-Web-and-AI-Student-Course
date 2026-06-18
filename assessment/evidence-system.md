@@ -50,6 +50,8 @@ Optional but recommended:
 - Certificate screenshot for external courses
 - Notion project page link
 - Screenshot of running app
+- Testing table for apps and ML projects
+- Model limitation note for prediction projects
 
 Template: [AI Usage Reflection](../templates/ai-usage-reflection-template.md)
 
@@ -124,6 +126,23 @@ What I did on my own:
 Full form: [ai-usage-reflection-template.md](../templates/ai-usage-reflection-template.md)
 
 Policy: [AI Use Policy for Students](../student-start/04-ai-use-policy-for-students.md)
+
+---
+
+## Final AI Web App Evidence
+
+For House Price and MNIST projects, submit:
+
+1. React frontend screenshot
+2. FastAPI endpoint test screenshot
+3. End-to-end prediction screenshot
+4. Testing table
+5. README explaining input, output, model, data flow, and limitations
+6. Reflection explaining what you learned and what failed
+7. AI use log
+8. AP CSP-style explanation of student-written logic
+
+See [final-ai-web-app-requirements.md](final-ai-web-app-requirements.md) and [ap-csp-alignment.md](ap-csp-alignment.md).
 
 ---
 

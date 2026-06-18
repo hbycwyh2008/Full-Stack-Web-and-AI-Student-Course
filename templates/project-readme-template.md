@@ -19,10 +19,10 @@ What problem does this project solve?
 - Feature 3
 
 ## Tools Used
-- Next.js
+- React + Vite
 - FastAPI
 - Python
-- MongoDB
+- pandas / scikit-learn if used
 - Cursor
 
 ## Screenshots
@@ -31,7 +31,18 @@ Add screenshots here.
 ## How It Works
 Explain the data flow:
 
-Frontend → Backend → Database / AI API → Response
+React input → FastAPI JSON request → Python function or model → JSON response → React output
+
+## Student-Written Logic
+Explain the part you wrote and can defend, such as input validation, result interpretation, testing logic, or category/risk labels.
+
+## Testing
+| Input | Expected Output | Actual Output | Pass? |
+|---|---|---|---|
+| | | | |
+
+## Limitations
+Explain what your app or model cannot safely claim.
 
 ## What I Learned
 Explain the key concepts you learned.

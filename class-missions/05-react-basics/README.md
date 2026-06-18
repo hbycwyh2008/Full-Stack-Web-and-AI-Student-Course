@@ -1,6 +1,10 @@
 # React Basics
 
-Build components with props and state
+Build React + Vite interfaces for AI applications.
+
+CS1 teaches only JSX, components, props, state, event handling, form input, conditional rendering, list rendering, `fetch()`, and displaying backend results.
+
+Do not teach Next.js, React Router, Redux, Zustand, advanced hooks, authentication, database, complex deployment, or server components in CS1.
 
 ## Lessons
 
@@ -10,7 +14,11 @@ Build components with props and state
 - [lesson 04 lists map and keys](lesson-04-lists-map-and-keys.md)
 - [lesson 05 state and events](lesson-05-state-and-events.md)
 - [lesson 06 forms and conditional ui](lesson-06-forms-and-conditional-ui.md)
-- [lesson 07 useeffect and fetch](../05-react-basics/lesson-07-useeffect-and-fetch.md)
+- [lesson 07 useeffect and fetch](lesson-07-useeffect-and-fetch.md)
+
+## Unit Outcome
+
+Students should be able to build a small React + Vite interface that collects user input, displays state, renders a list or conditional result, calls a backend-style endpoint with `fetch()`, and shows the returned result.
 
 ## Optional / Support Files
 

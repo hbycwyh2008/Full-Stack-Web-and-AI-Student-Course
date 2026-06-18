@@ -20,7 +20,7 @@ _(Bias, privacy, transparency, or school AI policy — your own words.)_
 
 ## Connection to My Projects
 
-_(How does this connect to apps, coding, or your final AI School Assistant?)_
+_(How does this connect to apps, coding, data, ML workflow, or your final AI web app project?)_
 
 ## Questions I Still Have
 

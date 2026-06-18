@@ -6,7 +6,7 @@ Use this rubric to grade student projects. Adjust weights to match your school c
 
 | Category | Weight |
 |---|---:|
-| AI literacy + math bridge evidence | 10% |
+| Data + ML workflow evidence | 10% |
 | Portfolio organization | 12% |
 | GitHub + README quality | 13% |
 | Frontend functionality | 18% |
@@ -19,42 +19,42 @@ Use this rubric to grade student projects. Adjust weights to match your school c
 
 ## Category Descriptions
 
-### AI literacy + math bridge evidence (10%)
-Phase 2 AI literacy and Phase 3 `ai-math-bridge/` — conceptual clarity, labs, reflection; **not** proof-based algebra.
+### Data + ML workflow evidence (10%)
+Kaggle/pandas inspection workflow, features `X`, target `y`, model training, evaluation, limitation reflection, and error analysis.
 
 ### Portfolio organization (12%)
-Notion structure, Figma link, clear sections.
+Notion structure, project pages, GitHub links, screenshots, and reflections.
 
 ### GitHub + README quality (13%)
-Organized personal repo per `student-git-hub-repository-guide.md`; root README; folder structure; commit/branch/PR history; project READMEs in `ai-literacy/`, `ai-math-bridge/`, and project folders. See `assessment/Student_GitHub_Assessment.md`. Assess **organization, documentation, and evidence** — not only code.
+Organized personal repo per `student-git-hub-repository-guide.md`; root README; folder structure; commit/branch/PR history; project READMEs in Unit 1–7 folders. Assess **organization, documentation, and evidence** — not only code.
 
 ### Frontend functionality (18%)
-Next.js + TypeScript runs; matches Figma plan.
+HTML/CSS/JS mini app and React + Vite interface run; user input, button actions, state, conditional/list rendering, and result display are visible.
 
 ### Backend API functionality (17%)
-Lightweight FastAPI; `/docs`; error handling.
+Lightweight FastAPI; `/docs`; GET/POST or prediction endpoint; Pydantic request model; JSON response; basic error handling.
 
 ### Full-stack integration (12%)
-Frontend ↔ backend; loading/error states.
+React + Vite ↔ FastAPI; JSON request/response; prediction result displayed; loading/error states when appropriate.
 
 ### AI-assisted development reflection (10%)
 Honest, specific reflection on AI usage; clear distinction between AI-generated and student work; evidence of reading, debugging, and questioning — not passive copy-paste.
 
 ### Presentation / demo (8%)
-Clear demo; student can explain architecture, data flow, math/AI connections, and how they debugged at least one significant issue.
+Clear demo; student can explain architecture, data flow, model limitations, AP CSP-style student logic, and how they debugged at least one significant issue.
 
 ---
 
 ## Key Assessment Questions
 
 ```text
-Can the student explain vectors/matrices as data and connect them to AI/ML/CV?
-Can the student explain what AI and generative AI are, and what they cannot do?
-Can the student apply responsible AI ideas to the AI School Assistant?
-Can the student explain the architecture and data flow (including RAG)?
+Can the student explain data rows, columns, features X, and target y?
+Can the student explain what the model predicts and what it cannot safely claim?
+Can the student apply responsible AI ideas to House Price or MNIST?
+Can the student explain React input → FastAPI request → Python/model prediction → JSON response → React output?
 Can the student read and explain key parts of their own code (not only run it)?
 Can the student debug basic issues using error messages and a systematic approach?
-Can the student complete NumPy/image labs and explain them in own words?
+Can the student explain a student-written procedure, list/data use, selection, iteration, and tests?
 Can the student distinguish AI-generated code from their own decisions?
 Can the student reflect on what they learned, what failed, and what remains unclear?
 ```
@@ -63,14 +63,12 @@ See also: `assessment/Student_Learning_Expectations.md`
 
 ---
 
-## Phase 2 Evidence (AI Literacy)
+## CS1 Evidence Highlights
 
-- Study notes (A1, A2); AI Lens responses
-- Responsible AI Checklist (`resources/ai-literacy/Responsible_AI_Checklist.md`)
-- `ai-literacy/` on GitHub
-
-## Phase 3 Evidence (AI Math Bridge)
-
-- `ai-math-bridge/` with README, labs, reflection
-- `assessment/ai-math-bridge_Checklist.md` complete
-- Explains vector, matrix, X/y, dot product, image-as-matrix in own words
+- Mini AI App Mockup with no-notes mastery check
+- React + Vite interface with form, state, list/conditional rendering, and `fetch()`
+- Python functions, lists/dictionaries, debugging, and simple tests
+- Kaggle/pandas inspection report
+- ML workflow notebook/model with evaluation and limitation reflection
+- FastAPI prediction endpoint
+- House Price final app and optional MNIST showcase

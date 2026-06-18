@@ -1,8 +1,8 @@
 # AI Literacy Checklist
 
-Use this checklist to confirm **Phase 2: AI Literacy Foundation** (after Phases 0–1) before **Phase 3 AI Math Bridge**.
+Use this checklist when your teacher assigns AI Literacy as a CS1 support or extension activity.
 
-> This checklist connects directly to the final project: **AI School Assistant**.
+> This checklist connects directly to AI web app projects such as House Price Prediction and MNIST Digit Recognition.
 
 ---
 
@@ -28,7 +28,7 @@ Use this checklist to confirm **Phase 2: AI Literacy Foundation** (after Phases 
 
 ## 4. Responsible AI
 
-- [ ] Can explain why the AI School Assistant must use school documents.
+- [ ] Can explain why an AI app must use appropriate data and show limitations.
 - [ ] Can explain why it should say "I don't know" when unsure.
 - [ ] Can identify a fairness, bias, or privacy concern.
 - [ ] Understands that the student is responsible for the final project, not the AI.
@@ -38,7 +38,7 @@ Use this checklist to confirm **Phase 2: AI Literacy Foundation** (after Phases 
 - [ ] Completed study notes for **AI for Everyone**.
 - [ ] Completed study notes for **Generative AI for Everyone**.
 - [ ] Answered at least three **AI Lens Discussion Prompts**.
-- [ ] Completed the **Responsible AI Checklist** for the AI School Assistant.
+- [ ] Completed the **Responsible AI Checklist** for a final AI web app project.
 
 ---
 

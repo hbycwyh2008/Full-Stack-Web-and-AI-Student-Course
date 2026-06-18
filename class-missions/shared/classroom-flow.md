@@ -6,17 +6,19 @@ Each class follows the same **90-minute** structure. Your **class mission** file
 
 ---
 
-## The Seven Blocks
+## The Nine Blocks
 
 | Time | Block | What you do |
 |---|---|---|
-| **0–10 min** | Entry Point Check | Answer short questions **individually** — reveal what you already know and what confuses you |
-| **10–25 min** | Individual Learning | Use the **one required resource** — take required notes |
-| **25–40 min** | Talk Round 1 | Discuss notes with partner — **each student speaks** |
-| **40–55 min** | Entry Points Check / Teacher Diagnosis | Group shared answer; teacher explains **only what students are stuck on** |
-| **55–75 min** | Guided Practice / Mission Task | Complete the **main task** with support, then less help |
-| **75–85 min** | Exit Check | What you finished, what is confusing, what evidence you submit |
-| **85–90 min** | Submission | Submit evidence listed in the mission guide |
+| **0–10 min** | Individual Learning | Use the **one required resource** and complete required notes |
+| **10–20 min** | Talk-Robin | Each student shares one note, one question, and one prediction |
+| **20–30 min** | Group Answer | Prepare one shared answer the teacher can check quickly |
+| **30–40 min** | Entry Points Check | Teacher diagnoses what the class is ready for and what needs clarification |
+| **40–50 min** | Teacher Clarification | Teacher explains only the stuck points, not a full textbook lecture |
+| **50–70 min** | Guided Practice | Build or analyze the core pattern with support |
+| **70–80 min** | No-notes Reproduction / Mastery Check | Rebuild, modify, or explain the pattern without notes or AI |
+| **80–86 min** | Reflection | Record what worked, what failed, what you can explain, and what needs review |
+| **86–90 min** | Evidence Submission | Submit the checklist from the mission guide |
 
 ---
 
@@ -28,23 +30,19 @@ Every mission guide includes:
 - **What to Focus On** — exactly what to note (not everything in the resource)
 - **Optional Support Resources** — at most 1–2, only if stuck
 - **Teacher Reference Only** — not for students to choose from during class
+- **No-notes Reproduction / Mastery Check** — proof that students can rebuild, modify, or explain the pattern
 
 Do **not** browse playlists or “pick a clip” during class.
 
 ---
 
-## Entry Point Check vs Entry Points Check
+## Entry Points Check
 
-| Block | When | Purpose |
-|---|---|---|
-| **Entry Point Check** (0–10) | **Before** Individual Learning | What you bring in; baseline confusion |
-| **Entry Points Check** (40–55) | **After** Talk Round 1 | Teacher uses **group answers** to decide what to teach |
-
-Neither block is mainly for grading.
+The Entry Points Check happens after individual learning, Talk-Robin, and group answer. It is not mainly for grading. It tells the teacher where to clarify before guided practice.
 
 ---
 
-## Guided Practice / Mission Task (55–75 min)
+## Guided Practice
 
 This is where you **do the work** — create files, commits, folders, or mastery answers.
 
@@ -54,7 +52,7 @@ See `../shared/ai-use-during-practice.md` during independent parts.
 
 ---
 
-## Submission (85–90 min)
+## Evidence Submission
 
 Submit what **What You Must Submit** lists in today’s mission file.
 

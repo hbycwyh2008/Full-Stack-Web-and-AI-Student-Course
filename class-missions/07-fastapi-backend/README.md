@@ -1,6 +1,8 @@
 # FastAPI Backend
 
-Build API routes and models
+Build Python API routes for AI app prediction flow.
+
+For CS1, use only the lightweight parts needed for React → FastAPI → Python/model → JSON → React. Database lessons are optional enrichment, not CS1 core.
 
 ## Lessons
 
@@ -10,6 +12,11 @@ Build API routes and models
 - [lesson 04 query parameters and post](lesson-04-query-parameters-and-post.md)
 - [lesson 05 crud operations](lesson-05-crud-operations.md)
 - [lesson 06 pydantic models and phase checkpoint](lesson-06-pydantic-models-and-phase-checkpoint.md)
+
+## Optional Database Extension
+
+The lessons below are not required for CS1:
+
 - [lesson 07 sql database sqlite](lesson-07-sql-database-sqlite.md)
 - [lesson 08 sqlmodel and dependency injection](lesson-08-sqlmodel-and-dependency-injection.md)
 - [lesson 09 asyncio in fastapi](lesson-09-asyncio-in-fastapi.md)

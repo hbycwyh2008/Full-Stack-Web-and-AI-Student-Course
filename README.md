@@ -1,6 +1,6 @@
-# Full-Stack Web and AI Student Course
+# CS1: Web, Python, and AI Application Foundations
 
-Welcome. This is the student-facing course repository for high-school students learning full-stack web and AI application development.
+Welcome. This is the student-facing course repository for high-school students learning web, Python, data, machine learning workflow, and AI web application foundations.
 
 **Start here:** [student-start-here.md](student-start-here.md)
 
@@ -12,18 +12,22 @@ Use this repo to read missions, copy templates, and check submission rules. Do n
 
 ## Course Pathway
 
-1. GitHub + Notion
-2. AI Literacy
-3. HTML/CSS Basics
-4. JavaScript Basics
-5. React Basics
-6. Next.js Frontend
-7. FastAPI Backend
-8. Next.js + FastAPI Integration
-9. Cursor-assisted Capstone
-10. Final Portfolio Showcase
+CS1 is no longer only a Web development course. It uses Web development as the application layer while students build foundations in tools, frontend programming, Python, data processing, machine learning workflow, and AI Web App projects.
 
-Optional / teacher-selected extensions: Figma, AI Math Bridge, extra database practice, and deeper RAG concepts near the capstone.
+1. Tool Layer — GitHub, Markdown, and Notion Web
+2. HTML, CSS, and JavaScript Crash Foundation
+3. React Frontend Basics with Vite
+4. Python Foundations
+5. Kaggle, pandas, and Data Processing
+6. Machine Learning Workflow
+7. FastAPI Backend for AI Apps
+8. Final AI Web App Projects
+
+Optional / teacher-selected extensions: Figma, AI Literacy, AI Math Bridge, Next.js, extra database practice, and Cursor deep dives.
+
+**Core final project:** House Price Prediction Web App.
+
+**Showcase project:** MNIST Digit Recognition Web App with teacher-provided preprocessing scaffold when needed.
 
 ## Quick Links
 
