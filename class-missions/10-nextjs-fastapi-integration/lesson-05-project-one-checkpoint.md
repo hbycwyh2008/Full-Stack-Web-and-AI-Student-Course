@@ -125,7 +125,7 @@ Begin Udemy Project 2 at home — not required for Phase 01 sign-off.
 
 ## After Phase 01
 
-Continue to [Phase 02: Cursor AI Kanban + Vibe](../09-cursor-capstone/lesson-01-cursor-setup-and-workflow.md)
+Continue to [Phase 02: Cursor AI Kanban + Vibe](../13-cursor-capstone/lesson-01-cursor-setup-and-workflow.md)
 
 Support track:
 

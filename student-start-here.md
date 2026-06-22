@@ -22,16 +22,25 @@ Check the current phase and weekly flow:
 
 The course follows this sequence:
 
-0. Tool Layer — GitHub, Markdown, Notion Web
-1. HTML, CSS, and JavaScript Crash Foundation
-2. React Frontend Basics with Vite
-3. Python Foundations
-4. Kaggle, pandas, and Data Processing
-5. Machine Learning Workflow
-6. FastAPI Backend for AI Apps
-7. Final AI Web App Projects
-
-Optional / teacher-selected: Figma, AI Literacy, AI Math Bridge, Next.js, databases, and Cursor deep dives. These are not blockers for the CS1 core path.
+```text
+00  Course overview
+01  GitHub and Notion
+02  AI literacy
+03  HTML/CSS basics
+04  JavaScript basics
+05  React basics
+06  Next.js frontend
+07  Python foundations
+08  FastAPI backend
+09  FastAPI AI backend
+10  Next.js + FastAPI integration
+11  Kaggle data processing
+12  Machine learning workflow
+13  Cursor capstone
+14  Final AI web app projects
+15  Final portfolio showcase
+optional  Figma
+```
 
 ## Submit Evidence
 

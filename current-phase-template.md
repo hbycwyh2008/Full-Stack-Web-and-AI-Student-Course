@@ -1,10 +1,10 @@
-# Current Phase Template
+# Current Unit Template
 
 Copy this into your class announcement, Notion page, or weekly agenda.
 
-## Current Phase
+## Current Unit
 
-Phase name:
+Unit name:
 
 ## Today
 

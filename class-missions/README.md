@@ -1,32 +1,38 @@
 # Class Missions
 
-Open this folder during class. Your teacher will tell you the current phase and lesson.
+Open this folder during class. Your teacher will tell you the current unit and lesson.
 
-## Today / This Week / Current Phase / Submit Evidence / If You Are Stuck
+## Today / This Week / Current Unit / Submit Evidence / If You Are Stuck
 
-- Today: open the assigned phase folder and lesson file.
-- This Week: follow the current phase in `course-map.md`.
-- Current Phase: use the phase list below.
+- Today: open the assigned numbered folder and lesson file.
+- This Week: follow the current unit in `course-map.md`.
+- Current Unit: use the folder list below.
 - Submit Evidence: follow the mission section named `Evidence to Submit`.
 - If You Are Stuck: read the mission `Common Problems`, then use `student-troubleshooting-guide.md`.
 
 ## Unified CS1 Sequence
 
-| Unit | Folder | Goal |
-|---|---|---|
-| Unit 0 Tool Layer | [01-github-notion/](01-github-notion/) | Create repo, README, commits, Notion portfolio, AI use log |
-| Unit 1 HTML/CSS | [03-html-css-basics/](03-html-css-basics/) | Build simple structured pages |
-| Unit 1 JavaScript | [04-javascript-basics/](04-javascript-basics/) | Make browser pages interactive and complete Mini AI App Mockup |
-| Unit 2 React + Vite | [05-react-basics/](05-react-basics/) | Build components with props, state, forms, lists, and `fetch()` |
-| Unit 3 Python Foundations | [06-python-foundations/](06-python-foundations/) | Write practical Python functions, tests, and debugging notes |
-| Unit 4 Kaggle/Data | [07-kaggle-data-processing/](07-kaggle-data-processing/) | Practice pandas inspection workflow |
-| Unit 5 ML Workflow | [08-machine-learning-workflow/](08-machine-learning-workflow/) | Train simple models and explain evaluation/limitations |
-| Unit 6 FastAPI for AI Apps | [09-fastapi-ai-backend/](09-fastapi-ai-backend/) | Return prediction JSON from Python/model code |
-| Unit 7 Final AI Web Apps | [10-final-ai-web-app-projects/](10-final-ai-web-app-projects/) | House Price final app and optional MNIST showcase |
-| Optional AI Literacy | [02-ai-literacy/](02-ai-literacy/) | Use AI responsibly and disclose help |
-| Optional Figma | [optional-figma/](optional-figma/) | Lightweight design planning when assigned |
+| Folder | Goal |
+|---|---|
+| [00-course-overview/](00-course-overview/) | Course map, weekly learning flow, evidence levels, and submission rules |
+| [01-github-notion/](01-github-notion/) | Create repo, README, commits, Notion portfolio, AI use log |
+| [02-ai-literacy/](02-ai-literacy/) | Use AI responsibly and disclose help |
+| [03-html-css-basics/](03-html-css-basics/) | Build simple structured pages |
+| [04-javascript-basics/](04-javascript-basics/) | Make browser pages interactive and complete Mini AI App Mockup |
+| [05-react-basics/](05-react-basics/) | Build components with props, state, forms, lists, and `fetch()` |
+| [06-nextjs-frontend/](06-nextjs-frontend/) | Learn Next.js frontend basics when assigned |
+| [07-python-foundations/](07-python-foundations/) | Write practical Python functions, tests, and debugging notes |
+| [08-fastapi-backend/](08-fastapi-backend/) | Build FastAPI routes and backend evidence |
+| [09-fastapi-ai-backend/](09-fastapi-ai-backend/) | Return prediction JSON from Python/model code |
+| [10-nextjs-fastapi-integration/](10-nextjs-fastapi-integration/) | Connect frontend and backend |
+| [11-kaggle-data-processing/](11-kaggle-data-processing/) | Practice pandas inspection workflow |
+| [12-machine-learning-workflow/](12-machine-learning-workflow/) | Train simple models and explain evaluation/limitations |
+| [13-cursor-capstone/](13-cursor-capstone/) | Use Cursor in capstone workflow when assigned |
+| [14-final-ai-web-app-projects/](14-final-ai-web-app-projects/) | House Price final app and optional MNIST showcase |
+| [15-final-portfolio-showcase/](15-final-portfolio-showcase/) | Polish portfolio and final presentation |
+| [optional-figma/](optional-figma/) | Lightweight design planning when assigned |
 
-Optional tracks are clearly labeled. Figma, AI Literacy, AI Math Bridge, Next.js, databases, and Cursor deep dives are not required blockers in the updated CS1 core.
+Optional tracks are clearly labeled. Figma, AI Math Bridge, extra database practice, and Cursor deep dives are assigned by the teacher when needed.
 
 ## Shared Guides
 

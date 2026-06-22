@@ -6,14 +6,23 @@ CS1 uses Web development as the application layer while students build foundatio
 
 | Unit | Main focus | Student outcome |
 |---|---|---|
-| 0. Tool Layer | GitHub, Markdown, Notion Web | Personal course repo, README, commits, Notion portfolio, AI use log |
-| 1. HTML/CSS/JS Crash Foundation | Web page structure, styling, DOM, events | Mini AI App Mockup with no-notes mastery check |
-| 2. React Frontend Basics | React + Vite, components, props, state, forms, lists, `fetch()` | Simple AI app interface |
-| 3. Python Foundations | Variables, decisions, loops, lists, dictionaries, functions, files, debugging, simple tests | Practical Python task folder |
-| 4. Kaggle, pandas, and Data Processing | CSV, DataFrame, inspection workflow, features and target | Data inspection report or notebook |
-| 5. Machine Learning Workflow | `X`, `y`, train/test split, `fit`, `predict`, evaluation, limitations | Titanic workflow training and House Price regression model |
-| 6. FastAPI Backend for AI Apps | GET/POST, request body, response JSON, Pydantic, CORS, model call | Prediction endpoint called by frontend |
-| 7. Final AI Web App Projects | React + FastAPI + ML app documentation | House Price final app and optional MNIST showcase |
+| 00 | Course overview | Understand course map, evidence levels, and submission rules |
+| 01 | GitHub and Notion | Personal course repo, README, commits, Notion portfolio, AI use log |
+| 02 | AI Literacy | Responsible AI notes, disclosure habits, and reflection evidence |
+| 03 | HTML/CSS Basics | Structured pages and styled form evidence |
+| 04 | JavaScript Basics | Browser interactivity and Mini AI App Mockup |
+| 05 | React Basics | Components, props, state, forms, lists, and `fetch()` |
+| 06 | Next.js Frontend | Next.js frontend basics when assigned |
+| 07 | Python Foundations | Practical Python task folder |
+| 08 | FastAPI Backend | FastAPI routes, `/docs`, request/response evidence |
+| 09 | FastAPI AI Backend | Prediction or AI-style JSON endpoint |
+| 10 | Next.js + FastAPI Integration | Frontend calls backend and displays results |
+| 11 | Kaggle Data Processing | Data inspection report or notebook |
+| 12 | Machine Learning Workflow | Titanic workflow training and House Price regression model |
+| 13 | Cursor Capstone | Cursor-supported capstone workflow when assigned |
+| 14 | Final AI Web App Projects | House Price final app and optional MNIST showcase |
+| 15 | Final Portfolio Showcase | Portfolio polish, final reflection, and presentation evidence |
+| optional | Figma | Lightweight design planning or teacher-selected design sprint |
 
 ## Unit Limits
 

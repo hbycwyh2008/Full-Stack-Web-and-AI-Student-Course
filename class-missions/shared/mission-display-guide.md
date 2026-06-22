@@ -135,7 +135,7 @@ Copy the header block from [mission-lesson-snippet.md](mission-lesson-snippet.md
 
 ## 9. Batch apply (canonical tracks)
 
-Re-run after adding new lessons under `01-github-notion`, `03-html-css-basics`, `05-react-basics`, `07-fastapi-backend`, or `09-cursor-capstone`:
+Re-run after adding new lessons under `01-github-notion`, `03-html-css-basics`, `05-react-basics`, `08-fastapi-backend`, or `13-cursor-capstone`:
 
 ```bash
 node class-missions/scripts/apply-mission-markdown-style.mjs
