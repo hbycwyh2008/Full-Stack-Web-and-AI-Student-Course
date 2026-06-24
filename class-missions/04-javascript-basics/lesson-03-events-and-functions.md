@@ -1,5 +1,7 @@
 # Lesson 3: Asynchronous JavaScript
 
+> **Deprecated.** This lesson has been replaced by the [JavaScript mini-unit](javascript-lessons/README.md). Continue with [Lesson 5: Fetch, JSON, and Mini Project](javascript-lessons/lesson-05-fetch-json-and-mini-project.md) for fetch and JSON work using local `data.json`.
+
 ## Lesson Goal
 
 By the end of this lesson, each student should be able to:

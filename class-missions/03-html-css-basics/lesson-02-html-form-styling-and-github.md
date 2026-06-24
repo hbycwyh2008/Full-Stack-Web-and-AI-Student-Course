@@ -1,5 +1,7 @@
 # Lesson 2: Form Styling and GitHub Evidence
 
+> **Deprecated.** This lesson has been replaced by the [Web Basics mini-unit](web-basics-lessons/README.md). Continue with [Lesson 2: CSS Basics and Selectors](web-basics-lessons/lesson-02-css-basics-and-selectors.md) after completing the new Lesson 1.
+
 ## Lesson Goal
 
 By the end of this lesson, each student should be able to:

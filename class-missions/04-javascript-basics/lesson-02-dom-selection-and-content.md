@@ -1,5 +1,7 @@
 # Lesson 2: The DOM
 
+> **Deprecated.** This lesson has been replaced by the [JavaScript mini-unit](javascript-lessons/README.md). Continue with [Lesson 3: DOM Selection and Page Updates](javascript-lessons/lesson-03-dom-selection-and-page-updates.md) after completing Lessons 1–2 in the new sequence.
+
 ## Lesson Goal
 
 By the end of this lesson, each student should be able to:

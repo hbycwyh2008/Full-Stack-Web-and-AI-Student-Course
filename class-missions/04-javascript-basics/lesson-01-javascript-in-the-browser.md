@@ -1,5 +1,7 @@
 # Lesson 1: JavaScript Foundations in the Browser
 
+> **Deprecated.** This lesson has been replaced by the [JavaScript mini-unit](javascript-lessons/README.md). Start with [Lesson 1: JavaScript Basics](javascript-lessons/lesson-01-javascript-basics.md).
+
 ## Lesson Goal
 
 By the end of this lesson, each student should be able to:

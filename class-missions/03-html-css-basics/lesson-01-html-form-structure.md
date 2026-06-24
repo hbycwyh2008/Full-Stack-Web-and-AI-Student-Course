@@ -1,5 +1,7 @@
 # Lesson 1: HTML Form Structure
 
+> **Deprecated.** This lesson has been replaced by the [Web Basics mini-unit](web-basics-lessons/README.md). Start with [Lesson 1: HTML Page Structure](web-basics-lessons/lesson-01-html-page-structure.md).
+
 ## Lesson Goal
 
 By the end of this lesson, each student should be able to:

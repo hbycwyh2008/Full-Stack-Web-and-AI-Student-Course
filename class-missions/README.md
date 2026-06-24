@@ -18,7 +18,7 @@ Open this folder during class. Your teacher will tell you the current unit and l
 | [01-github-notion/](01-github-notion/) | Create repo, README, commits, Notion portfolio, AI use log |
 | [02-ai-literacy/](02-ai-literacy/) | Use AI responsibly and disclose help |
 | [03-html-css-basics/](03-html-css-basics/) | Build simple structured pages |
-| [04-javascript-basics/](04-javascript-basics/) | Make browser pages interactive and complete Mini AI App Mockup |
+| [04-javascript-basics/](04-javascript-basics/) | Make browser pages interactive with DOM, forms, and local JSON |
 | [05-react-basics/](05-react-basics/) | Build components with props, state, forms, lists, and `fetch()` |
 | [06-nextjs-frontend/](06-nextjs-frontend/) | Learn Next.js frontend basics when assigned |
 | [07-python-foundations/](07-python-foundations/) | Write practical Python functions, tests, and debugging notes |
