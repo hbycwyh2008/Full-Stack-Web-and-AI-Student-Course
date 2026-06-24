@@ -2,9 +2,13 @@
 
 ## Lesson Goal
 
-Connect JavaScript to your existing HTML/CSS page and use variables to store profile or product information, then confirm your code runs in the browser Console.
+By the end of this lesson, each student should be able to:
 
-By the end of this lesson, you should have `script.js` linked from `web-basics-project/index.html` with meaningful `console.log` output and no red errors.
+1. Explain what JavaScript does on a webpage compared with HTML and CSS.
+2. Link `script.js` from `web-basics-project/index.html` before `</body>`.
+3. Use the browser Console and `console.log` to confirm code runs.
+4. Declare strings, numbers, booleans, arrays, and objects with `let` and `const`.
+5. Submit daily evidence listed below.
 
 ## Required Resource
 
@@ -12,9 +16,9 @@ Open only the resource named in `Individual Learning`. If the resource is longer
 
 ## What to Focus On
 
-Focus on what JavaScript does on a webpage, linking `script.js`, the browser Console, `console.log`, and basic data types with `let` and `const`. Do not update the DOM yet — that comes in Lesson 3.
+Focus on linking JavaScript, the Console, variables, and basic data types. Do **not** update the DOM yet — that starts in [Lesson 3](lesson-03-dom-selection-and-page-updates.md). Functions and conditionals come in [Lesson 2](lesson-02-functions-conditionals-and-user-input.md).
 
-## Entry Point Check
+## Entry Point Check (0–10 min)
 
 Use the first 10 minutes to answer these before new instruction:
 
@@ -22,23 +26,35 @@ Use the first 10 minutes to answer these before new instruction:
 - What file, tool, or concept should I open first?
 - What is one question I need answered before the mission?
 
-## Individual Learning
+## Individual Learning (10–25 min)
 
 > [!NOTE]
 > **One required resource** for this block — see below. Do not browse extra JavaScript tutorials during class.
 
-Students work individually first.
+**Required resource — [Introduction to JavaScript and Ajax, Module 1](https://www.coursera.org/learn/introduction-to-javascript-and-ajax-building-web-apps-jhu/home/module/1)** (JHU / Yaakov Chaikin).
 
-**Step A — Coursera reading and video:**
+**Class time target:** watch **items 2–5** during the 10–25 minute block. That is about 20 minutes. Start **item 10** or **item 12** only if time remains; finish them during Guided Practice or as homework.
 
-1. Open the Coursera course: https://www.coursera.org/learn/introduction-to-javascript-and-ajax-building-web-apps-jhu/home/module/2
-2. Work through the **JavaScript fundamentals** sections — what JavaScript does in the browser, variables, strings, numbers, booleans, arrays, and objects.
-3. **Stop before functions and DOM sections.** Those come in Lessons 2 and 3.
-4. Practice opening DevTools → Console and reading `console.log` output.
+Item 1 is optional orientation. Items 6–7 move to [Lesson 2](lesson-02-functions-conditionals-and-user-input.md). Items on closures, namespaces, and advanced OOP are **not** core for this class.
 
-**Step B — map the course to this project:**
+Open Module 1 on Coursera. Use **only** the items listed here, **in this order**:
 
-Extend your [HTML/CSS project](../../03-html-css-basics/web-basics-lessons/lesson-04-flexbox-mini-project.md) in `web-basics-project/`:
+| Coursera item # | Title | ~Time | When to use |
+|---|---|---|---|
+| 2 | Why Javascript? | 4 min | **Core in class** |
+| 3 | Reading: Javascript Syntax | 3 min | Skim in class or homework |
+| 4 | Lecture: Javascript Basics | 6 min | **Core in class** |
+| 5 | Lecture: Variables, Types, and Operators | 7 min | **Core in class** |
+| 10 | Lecture: Objects | 8 min | Start in class if time; otherwise homework |
+| 12 | Lecture: Arrays | 6 min | Homework or finish in Guided Practice |
+
+**Stop here.** Do **not** open item 6 (Flow Control) or item 7 (Functions Explained) — those start in [Lesson 2](lesson-02-functions-conditionals-and-user-input.md). Do **not** open Module 2 yet.
+
+Practice opening DevTools → Console and reading `console.log` output.
+
+**Map the course to this project:**
+
+Extend your [HTML/CSS project](../../03-html-css-basics/web-basics-lessons/lesson-10-flexbox-layout-polish-and-submit.md) in `web-basics-project/`:
 
 | Course concept | What to add |
 |---|---|
@@ -66,9 +82,9 @@ One thing I still do not understand is...
 
 **Student output:** Working `script.js` with variables and meaningful Console messages.
 
-## Talk Robin
+## Talk Round 1 (25–40 min)
 
-Each student speaks once before anyone speaks twice.
+Each student speaks once before anyone speaks twice. See [talk-robin-rules.md](../../shared/talk-robin-rules.md).
 
 **Share:**
 
@@ -77,11 +93,11 @@ Each student speaks once before anyone speaks twice.
 3. What `console.log` helps you do
 4. One confusion or question
 
-**Student output:** Group list of clear ideas and unclear questions.
+**Pair summary:** Agree on one useful variable pattern and one question for the teacher.
 
-## Group Answer
+## Entry Points Check / Teacher Diagnosis (40–55 min)
 
-As a group, prepare one shared answer:
+**Group answer:**
 
 ```text
 On one web page, HTML...
@@ -92,12 +108,6 @@ const is for...
 Our group still needs help with...
 ```
 
-**Student output:** One group answer.
-
-## Teacher Clarification
-
-The teacher checks what students already understand before explaining.
-
 **Teacher checks:**
 
 1. Does `web-basics-project/index.html` from Phase 2 still open correctly?
@@ -105,13 +115,9 @@ The teacher checks what students already understand before explaining.
 3. Can students explain the three layers: HTML, CSS, JavaScript?
 4. Did anyone put `<script>` in `<head>` without understanding load order? (Before `</body>` is fine for this unit.)
 
-**Teacher explanation rule:** Explain only the unclear parts. Do not run a full teacher-demo-first lesson.
+The teacher explains only the common stuck points before Guided Practice.
 
-The teacher explains only the common stuck points before the mission task.
-
-## Mission Task
-
-Students complete the main task.
+## Guided Practice (55–75 min)
 
 **Task:**
 
@@ -157,14 +163,12 @@ console.log(message);
 - Console screenshot with variable output visible
 - One meaningful commit on GitHub
 
-## Independent Rebuild
+## Exit Check (75–85 min)
 
 > [!IMPORTANT]
-> Independent work: close the Coursera lesson, notes, and AI tools before this block.
+> Independent work: close the Coursera lesson, notes, and AI tools before this block. See [independent-rebuild.md](../../shared/independent-rebuild.md).
 
-Students repeat the workflow independently **without looking at the tutorial**.
-
-**Independent rebuild task:**
+**Exit Check task:**
 
 1. Add one new property to your `card` object and log it.
 2. Add one new item to your `tags` array and log the full array.
@@ -186,7 +190,7 @@ One thing I still need help with is...
 
 Close full-solution references before this block. You may use your own short checklist, but do not copy a completed answer.
 
-## Evidence to Submit
+## Evidence to Submit (85–90 min)
 
 1. Screenshot of DevTools Console showing your log messages
 2. GitHub link to `web-basics-project/script.js`
@@ -218,7 +222,7 @@ Fast track:
 
 If most students complete this lesson in about 45 minutes, continue directly into [Lesson 2](lesson-02-functions-conditionals-and-user-input.md) during the same 90-minute block.
 
-Use this only if students have working Console output and completed the independent rebuild.
+Use this only if students have working Console output and completed Exit Check.
 
 Support track:
 

@@ -1,10 +1,15 @@
-# Lesson 3: Box Model and Layout
+# Lesson 8: Box Model, Spacing, and Borders
 
 ## Lesson Goal
 
-Improve your page layout using the CSS box model so content sits in a centered container or card with readable spacing.
+By the end of this lesson, each student should be able to:
 
-By the end of this lesson, your page should look organized on both wide and narrow browser windows, and you should know how to inspect spacing with DevTools.
+1. Explain padding, margin, border, and content in the CSS box model.
+2. Adjust padding and margin on existing page elements.
+3. Use DevTools to inspect one spacing problem.
+4. Explain why width and spacing affect readability.
+5. Adjust spacing during Exit Check without reopening the tutorial.
+6. Submit daily evidence listed below.
 
 ## Required Resource
 
@@ -12,9 +17,11 @@ Open only the resource named in `Individual Learning`. If the resource is longer
 
 ## What to Focus On
 
-Focus on content, padding, border, margin, width, containers, background color, border radius, and DevTools inspection. Flexbox comes in Lesson 4.
+Focus on the pattern you need for today's mission. Do not collect extra tutorials during the first learning block.
 
-## Entry Point Check
+**Today's pattern:** box model, padding, margin, borders, and DevTools inspection. Box model wrap-up and page layout come in the next lessons.
+
+## Entry Point Check (0–10 min)
 
 Use the first 10 minutes to answer these before new instruction:
 
@@ -22,30 +29,38 @@ Use the first 10 minutes to answer these before new instruction:
 - What file, tool, or concept should I open first?
 - What is one question I need answered before the mission?
 
-## Individual Learning
+## Individual Learning (10–25 min)
 
 > [!NOTE]
 > **One required resource** for this block — see below. Do not browse extra layout tutorials during class.
 
-Students work individually first.
+**Required resource — [HTML & CSS Crash Course, Module 1](https://www.coursera.org/learn/html--css-crash-course/home/module/1)** (Kevin Powell / Scrimba).
 
-**Step A — Coursera reading and video:**
+**Class time target:** watch **items 21–23** during the 10–25 minute block. That is about 26 minutes — finish item 23 as homework only if you run out of class time.
 
-1. Open the Coursera course: https://www.coursera.org/learn/html--css-crash-course/home/module/1
-2. Work through the **box model and layout** sections — padding, margin, border, width, and container-style layout.
-3. **Stop before Flexbox sections.** Flexbox is Lesson 4.
-4. Focus on how each element is a box with layers: content → padding → border → margin.
+Items 24–26 move to [Lesson 9](lesson-08-box-model-borders-and-wrap-up.md).
 
-**Step B — map the course to this project:**
+Use **only** these Coursera/Scrimba items, **in this order**:
+
+| Coursera item # | Title | ~Time | When to use |
+|---|---|---|---|
+| 21 | Intro to the box model | 6 min | **Core in class** |
+| 22 | Margin and Padding | 12 min | **Core in class** |
+| 23 | Borders | 8 min | **Core in class** |
+
+**Stop here.** Do **not** open item 24 (Box model wrap up) or any later layout item during this class.
+
+Focus on how each element is a box with layers: content → padding → border → margin.
+
+**Map the course to this project:**
 
 | Course concept | What to add to `web-basics-project/` |
 |---|---|
-| Box model | Set `padding`, `margin`, and `border` on container and cards |
-| Centered container | Wrap main content in `.page-container` with `max-width` and `margin: 0 auto` |
-| Card layout | Style `.card` sections with background, padding, and `border-radius` |
-| Page background | Different background on `body` vs container |
+| Box model | Explain content, padding, border, and margin |
+| Spacing | Adjust padding and margin on body, headings, or sections |
+| Borders | Add a visible border to a card or container |
+| Width intro | Try one readable `max-width` value without finalizing layout |
 | DevTools | Inspect one element and read its box model values |
-| Image safety | `img { max-width: 100%; }` so images do not overflow |
 
 **Individual notes:**
 
@@ -60,9 +75,9 @@ One thing I still do not understand is...
 
 **Student output:** Centered container/card layout with improved spacing.
 
-## Talk Robin
+## Talk Round 1 (25–40 min)
 
-Each student speaks once before anyone speaks twice.
+Each student speaks once before anyone speaks twice. See [talk-robin-rules.md](../../shared/talk-robin-rules.md).
 
 **Share:**
 
@@ -71,11 +86,11 @@ Each student speaks once before anyone speaks twice.
 3. One thing you noticed in DevTools
 4. One confusion or question
 
-**Student output:** Group list of layout fixes and unclear questions.
+**Pair summary:** Agree on one layout fix and one question for the teacher.
 
-## Group Answer
+## Entry Points Check / Teacher Diagnosis (40–55 min)
 
-As a group, prepare one shared answer:
+**Group answer:**
 
 ```text
 Padding controls space...
@@ -84,12 +99,6 @@ A centered container needs...
 Our group still needs help with...
 ```
 
-**Student output:** One group answer.
-
-## Teacher Clarification
-
-The teacher checks what students already understand before explaining.
-
 **Teacher checks:**
 
 1. Is Lesson 2 CSS linked and working?
@@ -97,40 +106,32 @@ The teacher checks what students already understand before explaining.
 3. Does the page use a centered container with `max-width`?
 4. Do images stay inside the container on narrow screens?
 
-**Teacher explanation rule:** Explain only the unclear parts. Do not run a full teacher-demo-first lesson.
+The teacher explains only the common stuck points before Guided Practice.
 
-The teacher explains only the common stuck points before the mission task.
-
-## Mission Task
-
-Students complete the main task.
+## Guided Practice (55–75 min)
 
 **Task:**
 
 1. Open `web-basics-project/index.html` and `style.css`.
-2. Add `class="page-container"` to `<main>` (or wrap sections in a container div).
-3. Center the layout with `max-width: 720px` and `margin: 0 auto`.
-4. Give the container a background, padding, border, and `border-radius`.
-5. Update `.card` sections with consistent inner spacing.
-6. Add `img { max-width: 100%; height: auto; }` if you use images.
-7. Open DevTools, inspect one element, and fix one spacing problem you find.
-8. Test in a wide window and a narrow window — no horizontal scroll.
+2. Pick one element that needs better spacing.
+3. Adjust `padding` and `margin` in `style.css`.
+4. Add `border` and optional `border-radius` to one card or container.
+5. Open DevTools, inspect one element, and fix one spacing or border problem you find.
+6. Save, refresh, and compare before/after spacing.
 9. Commit with message: `Improve layout with box model and centered container`.
 
 **Mission output:**
 
-- Centered container/card layout visible in the browser
+- Better spacing visible in the browser
 - At least one spacing fix identified with DevTools
 - One meaningful commit on GitHub
 
-## Independent Rebuild
+## Exit Check (75–85 min)
 
 > [!IMPORTANT]
-> Independent work: close the Coursera lesson, notes, and AI tools before this block.
+> Independent work: close the Coursera lesson, notes, and AI tools before this block. See [independent-rebuild.md](../../shared/independent-rebuild.md).
 
-Students repeat the workflow independently **without looking at the tutorial**.
-
-**Independent rebuild task:**
+**Exit Check task:**
 
 1. Open your page without the Coursera lesson.
 2. Adjust one padding or margin value until the layout looks more balanced.
@@ -152,9 +153,9 @@ One thing I still need help with is...
 
 Close full-solution references before this block. You may use your own short checklist, but do not copy a completed answer.
 
-## Evidence to Submit
+## Evidence to Submit (85–90 min)
 
-1. Screenshot of your centered container/card layout in the browser
+1. Screenshot of your improved spacing in the browser
 2. GitHub link to updated `style.css` (and `index.html` if structure changed)
 3. Screenshot or link showing today's commit
 4. One sentence: "Today I changed ___ by adjusting padding/margin/border on ___."
@@ -163,11 +164,12 @@ Close full-solution references before this block. You may use your own short che
 
 You are successful if:
 
-1. Your main content sits in a centered, readable container.
-2. Your cards or sections have consistent spacing.
-3. Your page does not overflow horizontally on narrow screens.
+1. Your main content has more readable spacing.
+2. You can explain padding vs margin.
+3. You inspected at least one box model value in DevTools.
 4. You used DevTools to inspect at least one spacing issue.
 5. You made a meaningful commit on GitHub.
+6. All evidence submitted.
 
 ## Common Problems
 
@@ -183,13 +185,13 @@ You are successful if:
 
 Fast track:
 
-If most students complete this lesson in about 45 minutes, continue directly into [Lesson 4](lesson-04-flexbox-mini-project.md) during the same 90-minute block.
+If most students complete this lesson in about 45 minutes, continue directly into [Lesson 9](lesson-08-box-model-borders-and-wrap-up.md) during the same 90-minute block.
 
 Use this only if students have:
 
 1. A centered container layout that works in the browser.
 2. Fixed at least one spacing issue.
-3. Completed the independent rebuild without reopening the tutorial.
+3. Completed Exit Check without reopening the tutorial.
 
 Support track:
 

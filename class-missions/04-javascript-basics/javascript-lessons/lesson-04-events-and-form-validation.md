@@ -2,9 +2,12 @@
 
 ## Lesson Goal
 
-Handle user events and validate a simple form so required fields cannot be submitted empty, and clear success or error messages appear on the page.
+By the end of this lesson, each student should be able to:
 
-By the end of this lesson, your page should include an interactive form — login, contact, student profile, or course registration — with client-side validation feedback.
+1. Attach event listeners with `addEventListener`.
+2. Handle submit events with `event.preventDefault()`.
+3. Validate required form fields and show success or error messages on the page.
+4. Submit daily evidence listed below.
 
 ## Required Resource
 
@@ -12,9 +15,9 @@ Open only the resource named in `Individual Learning`. If the resource is longer
 
 ## What to Focus On
 
-Focus on `addEventListener`, click and submit events, `event.preventDefault()`, reading input values, and showing validation messages. This prepares you for loading JSON data in Lesson 5.
+Focus on click and submit events, `preventDefault()`, reading input values, and showing validation messages. This prepares you for loading JSON data in [Lesson 5](lesson-05-fetch-json-and-mini-project.md).
 
-## Entry Point Check
+## Entry Point Check (0–10 min)
 
 Use the first 10 minutes to answer these before new instruction:
 
@@ -22,21 +25,25 @@ Use the first 10 minutes to answer these before new instruction:
 - What file, tool, or concept should I open first?
 - What is one question I need answered before the mission?
 
-## Individual Learning
+## Individual Learning (10–25 min)
 
 > [!NOTE]
 > **One required resource** for this block — see below. Do not browse extra JavaScript tutorials during class.
 
-Students work individually first.
+**Required resource — [Introduction to JavaScript and Ajax, Module 2](https://www.coursera.org/learn/introduction-to-javascript-and-ajax-building-web-apps-jhu/home/module/2)** (JHU / Yaakov Chaikin).
 
-**Step A — Coursera reading and video:**
+**Class time target:** watch **items 4 and 5** during the 10–25 minute block. That is about 22 minutes.
 
-1. Open the Coursera course: https://www.coursera.org/learn/introduction-to-javascript-and-ajax-building-web-apps-jhu/home/module/2
-2. Work through the **events and form handling** sections — event listeners, click handlers, and responding to user actions.
-3. **Stop before Ajax/fetch sections.** Fetch is Lesson 5.
-4. Focus on how JavaScript listens for events and reacts without reloading the page.
+Items 6–9 move to [Lesson 5](lesson-05-fetch-json-and-mini-project.md). Do **not** start Ajax lectures during this class.
 
-**Step B — map the course to this project:**
+| Coursera item # | Title | ~Time | When to use |
+|---|---|---|---|
+| 4 | Lecture: Handling Events | 12 min | **Core in class** |
+| 5 | Lecture: Browser Default Actions | 10 min | **Core in class** |
+
+**Stop here.** Do **not** open item 6 (HTTP Basics) or later Ajax items until [Lesson 5](lesson-05-fetch-json-and-mini-project.md).
+
+**Map the course to this project:**
 
 Choose **one** form type and add it to `web-basics-project/`:
 
@@ -47,7 +54,7 @@ Choose **one** form type and add it to `web-basics-project/`:
 | Student profile form | name, grade level, interest |
 | Course registration | name, course choice |
 
-Use your existing CSS card/container styles. Show feedback in a `<p id="form-feedback">` element using Lesson 3 status classes.
+Use your existing CSS card/container styles. Show feedback in a `<p id="form-feedback">` element using [Lesson 3](lesson-03-dom-selection-and-page-updates.md) status classes.
 
 **Individual notes:**
 
@@ -63,9 +70,9 @@ One thing I still do not understand is...
 
 **Student output:** Form with validation messages visible on the page.
 
-## Talk Robin
+## Talk Round 1 (25–40 min)
 
-Each student speaks once before anyone speaks twice.
+Each student speaks once before anyone speaks twice. See [talk-robin-rules.md](../../shared/talk-robin-rules.md).
 
 **Share:**
 
@@ -74,11 +81,11 @@ Each student speaks once before anyone speaks twice.
 3. What `preventDefault()` does on submit
 4. One confusion or question
 
-**Student output:** Group list of validation patterns and unclear questions.
+**Pair summary:** Agree on one validation pattern and one question for the teacher.
 
-## Group Answer
+## Entry Points Check / Teacher Diagnosis (40–55 min)
 
-As a group, prepare one shared answer:
+**Group answer:**
 
 ```text
 We use preventDefault on submit because...
@@ -87,12 +94,6 @@ A success message should...
 Our group still needs help with...
 ```
 
-**Student output:** One group answer.
-
-## Teacher Clarification
-
-The teacher checks what students already understand before explaining.
-
 **Teacher checks:**
 
 1. Do Lesson 3 DOM updates and status classes still work?
@@ -100,13 +101,9 @@ The teacher checks what students already understand before explaining.
 3. Do forms use `<label for="...">` matched to input `id`?
 4. Are students validating before showing success?
 
-**Teacher explanation rule:** Explain only the unclear parts. Do not run a full teacher-demo-first lesson.
+The teacher explains only the common stuck points before Guided Practice.
 
-The teacher explains only the common stuck points before the mission task.
-
-## Mission Task
-
-Students complete the main task.
+## Guided Practice (55–75 min)
 
 **Task:**
 
@@ -182,14 +179,12 @@ contactForm.addEventListener("submit", function (event) {
 - Empty-field validation with clear feedback
 - One meaningful commit on GitHub
 
-## Independent Rebuild
+## Exit Check (75–85 min)
 
 > [!IMPORTANT]
-> Independent work: close the Coursera lesson, notes, and AI tools before this block.
+> Independent work: close the Coursera lesson, notes, and AI tools before this block. See [independent-rebuild.md](../../shared/independent-rebuild.md).
 
-Students repeat the workflow independently **without looking at the tutorial**.
-
-**Independent rebuild task:**
+**Exit Check task:**
 
 1. Add one extra validation rule — for example, message must be at least 10 characters.
 2. Add a **Clear** button that resets the form and feedback message.
@@ -211,7 +206,7 @@ One thing I still need help with is...
 
 Close full-solution references before this block. You may use your own short checklist, but do not copy a completed answer.
 
-## Evidence to Submit
+## Evidence to Submit (85–90 min)
 
 1. Screenshot showing error message after empty submit
 2. Screenshot showing success message after valid submit

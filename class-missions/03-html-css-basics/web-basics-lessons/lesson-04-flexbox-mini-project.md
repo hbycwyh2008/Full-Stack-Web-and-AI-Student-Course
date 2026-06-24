@@ -1,10 +1,15 @@
-# Lesson 4: Flexbox Mini Project
+# Lesson 10: Flexbox Layout Project
 
 ## Lesson Goal
 
-Complete your web basics unit by building one polished mini project — a simple login page, profile card, or landing page hero section — using Flexbox for alignment.
+By the end of this lesson, each student should be able to:
 
-By the end of this lesson, your `web-basics-project/` folder should be ready to submit as Phase 2 evidence on GitHub.
+1. Explain how Flexbox aligns child elements from a parent container.
+2. Choose one final mini project — login page, profile card, or landing hero section.
+3. Build the Flexbox layout in HTML and CSS using `display: flex`, `justify-content`, `align-items`, or `gap`.
+4. Keep semantic HTML, external CSS, and container layout from earlier lessons.
+5. Improve one alignment detail during Exit Check without reopening the tutorial.
+6. Submit daily evidence listed below.
 
 ## Required Resource
 
@@ -12,9 +17,11 @@ Open only the resource named in `Individual Learning`. If the resource is longer
 
 ## What to Focus On
 
-Focus on `display: flex`, `justify-content`, `align-items`, `gap`, and finishing one complete mini project. Your HTML structure, external CSS, and container layout from Lessons 1–3 should still be in place.
+Focus on the pattern you need for today's mission. Do not collect extra tutorials during the first learning block.
 
-## Entry Point Check
+**Today's pattern:** `display: flex`, layout HTML, layout CSS, and choosing the final mini project direction. Final polish and submission happen in [Lesson 11](lesson-10-flexbox-layout-polish-and-submit.md). Do not add CSS Grid, animation libraries, or Bootstrap for this unit.
+
+## Entry Point Check (0–10 min)
 
 Use the first 10 minutes to answer these before new instruction:
 
@@ -22,21 +29,30 @@ Use the first 10 minutes to answer these before new instruction:
 - What file, tool, or concept should I open first?
 - What is one question I need answered before the mission?
 
-## Individual Learning
+## Individual Learning (10–25 min)
 
 > [!NOTE]
 > **One required resource** for this block — see below. Do not browse extra layout tutorials during class.
 
-Students work individually first.
+**Required resource — [HTML & CSS Crash Course, Module 1](https://www.coursera.org/learn/html--css-crash-course/home/module/1)** (Kevin Powell / Scrimba).
 
-**Step A — Coursera reading and video:**
+**Class time target:** watch **items 27–29** during the 10–25 minute block. That is about 30 minutes — finish item 29 during Guided Practice or as homework if you run out of class time.
 
-1. Open the Coursera course: https://www.coursera.org/learn/html--css-crash-course/home/module/1
-2. Work through the **Flexbox** sections — flex containers, alignment, and simple row/column layouts.
-3. Focus on how `display: flex` on a parent controls how child elements align.
-4. Watch for patterns you can reuse in a login page, profile card, or hero section.
+Items 30–31 are optional closing items in [Lesson 11](lesson-10-flexbox-layout-polish-and-submit.md), along with the **HTML and CSS Crash Course Quiz**.
 
-**Step B — choose your final project:**
+Use **only** these Coursera/Scrimba items, **in this order**:
+
+| Coursera item # | Title | ~Time | When to use |
+|---|---|---|---|
+| 27 | Creating columns with flexbox | 7 min | **Core in class** |
+| 28 | Creating the layout from scratch - the HTML | 10 min | **Core in class** |
+| 29 | Creating the Layout - The CSS | 13 min | **Core in class** |
+
+**Stop here.** Do **not** open item 30 during this class.
+
+Focus on how `display: flex` on a parent controls how child elements align. Watch for patterns you can reuse in a login page, profile card, or hero section.
+
+**Choose your final project:**
 
 Pick **one** project type and commit to it:
 
@@ -61,9 +77,9 @@ One thing I still do not understand is...
 
 **Student output:** Notes ready for the final build and one chosen project type.
 
-## Talk Robin
+## Talk Round 1 (25–40 min)
 
-Each student speaks once before anyone speaks twice.
+Each student speaks once before anyone speaks twice. See [talk-robin-rules.md](../../shared/talk-robin-rules.md).
 
 **Share:**
 
@@ -72,11 +88,11 @@ Each student speaks once before anyone speaks twice.
 3. One Flexbox property you plan to use
 4. One confusion or question
 
-**Student output:** Group list of project ideas and unclear questions.
+**Pair summary:** Agree on one project idea and one question for the teacher.
 
-## Group Answer
+## Entry Points Check / Teacher Diagnosis (40–55 min)
 
-As a group, prepare one shared answer:
+**Group answer:**
 
 ```text
 display: flex goes on...
@@ -86,83 +102,46 @@ gap is useful because...
 Our group still needs help with...
 ```
 
-**Student output:** One group answer.
-
-## Teacher Clarification
-
-The teacher checks what students already understand before explaining.
-
 **Teacher checks:**
 
 1. Did every student choose one project type?
 2. Can students explain which element is the flex container?
-3. Are Lessons 1–3 files still in `web-basics-project/`?
+3. Are earlier lesson files still in `web-basics-project/`?
 4. Did anyone try to start a brand-new folder instead of extending the same project?
 
-**Teacher explanation rule:** Explain only the unclear parts. Do not run a full teacher-demo-first lesson.
+The teacher explains only the common stuck points before Guided Practice.
 
-The teacher explains only the common stuck points before the mission task.
-
-## Mission Task
-
-Students complete the main task.
+## Guided Practice (55–75 min)
 
 **Task:**
 
 1. Open `web-basics-project/index.html` and `style.css`.
-2. Rebuild or refine the page into your chosen mini project.
-3. Use Flexbox in at least **two** places (for example: center the page, align form fields, or space buttons).
-4. Use `display: flex`, plus at least two of: `justify-content`, `align-items`, `flex-direction`, `gap`.
-5. Keep external CSS in `style.css` — no inline styles.
-6. Add `README.md` to the project folder:
-
-```md
-# Web Basics Mini Project
-
-## Project Type
-Login page / Profile card / Landing hero (circle one)
-
-## What This Page Does
-One sentence in your own words.
-
-## What I Learned
-Three bullet points from Lessons 1–4.
-```
-
-7. Test in the browser at desktop and narrow width.
-8. Commit with message: `Complete flexbox mini project`.
+2. Choose one mini project type: login page, profile card, or landing hero.
+3. Identify one parent element that should become a flex container.
+4. Build or update the HTML structure for that layout.
+5. Add Flexbox CSS with `display: flex` and at least one of: `justify-content`, `align-items`, `flex-direction`, `gap`.
+6. Keep external CSS in `style.css` — no inline styles.
+7. Test in the browser and confirm the flex layout works.
+8. Commit with message: `Build flexbox layout project`.
 
 **Mission output:**
 
-- One finished mini project in the browser
-- Flexbox used for intentional alignment
-- `index.html`, `style.css`, and `README.md` in `web-basics-project/`
-- At least four meaningful commits across Lessons 1–4
+- One working flex layout in the browser
+- Updated `index.html` and `style.css` in `web-basics-project/`
+- Meaningful commits across the unit so far
 
-**Final project rubric — self-check before submission:**
+Final project polish, README, and rubric self-check happen in [Lesson 11](lesson-10-flexbox-layout-polish-and-submit.md).
 
-| Criterion | Strong | Developing | Starting |
-|---|---|---|---|
-| HTML structure | Semantic tags, valid structure, working links and `alt` text | Mostly valid; minor gaps | Broken or missing structure |
-| CSS organization | External stylesheet; clear selectors | Works but messy | Inline styles or disorganized |
-| Visual layout | Centered, readable, Flexbox used intentionally | Works but uneven | Hard to read or broken |
-| Code readability | Indented, logical class names | Mostly readable | Difficult to follow |
-| GitHub evidence | Screenshots, commits, README submitted | Most evidence present | Missing key evidence |
-| Reflection quality | Specific about build, learnings, and fixes | General but honest | Vague or missing |
-
-## Independent Rebuild
+## Exit Check (75–85 min)
 
 > [!IMPORTANT]
-> Independent work: close the Coursera lesson, notes, and AI tools before this block.
+> Independent work: close the Coursera lesson, notes, and AI tools before this block. See [independent-rebuild.md](../../shared/independent-rebuild.md).
 
-Students repeat the workflow independently **without looking at the tutorial**.
+**Exit Check task:**
 
-**Independent rebuild task:**
-
-1. Open your finished page without the Coursera lesson.
-2. Improve one visual detail — spacing, button style, or text alignment.
-3. Test both links if your project includes links (Notion, GitHub, or placeholder).
-4. Be ready to explain your flex container and alignment choices orally if called.
+1. Open your project page without the Coursera lesson.
+2. Improve one alignment detail with Flexbox.
+3. Be ready to explain which parent is the flex container and which children it controls.
 
 **Exit prompts:**
 
@@ -179,23 +158,22 @@ One thing I still need help with is...
 
 Close full-solution references before this block. You may use your own short checklist, but do not copy a completed answer.
 
-## Evidence to Submit
+## Evidence to Submit (85–90 min)
 
-1. Screenshot or preview of your finished mini project
-2. GitHub folder link to `web-basics-project/` with `index.html`, `style.css`, and `README.md`
-3. Commit history showing work from all four lessons (four or more meaningful commits)
-4. Completed final project rubric self-check (note Strong / Developing / Starting for each row)
-5. One sentence: "This unit taught me ___; my page demonstrates it by ___."
+1. Screenshot or preview showing the first Flexbox alignment change
+2. GitHub links to updated `index.html` and `style.css`
+3. Screenshot or link showing today's commit
+4. One sentence: "My flex container is ___; it controls ___."
 
 ## Success Criteria
 
 You are successful if:
 
-1. Your mini project opens correctly in the browser.
-2. Your page uses semantic HTML, external CSS, container layout, and Flexbox.
-3. Your `README.md` is written in your own words.
-4. Your GitHub repo shows meaningful commit history across the unit.
-5. You can explain what you built and how Flexbox helped alignment.
+1. Your project page opens correctly in the browser.
+2. You chose one final project direction.
+3. You built a Flexbox layout in both HTML and CSS.
+4. You can explain what the flex parent controls.
+5. All evidence submitted.
 
 ## Common Problems
 
@@ -211,7 +189,7 @@ You are successful if:
 
 Fast track:
 
-If Phase 2 evidence is complete early, preview [Phase 3: JavaScript Basics](../../04-javascript-basics/) only if your teacher approves.
+If this lesson is complete early, continue to [Lesson 11](lesson-10-flexbox-layout-polish-and-submit.md) only if your teacher approves.
 
 Optional extra block (teacher-assigned):
 
@@ -223,8 +201,8 @@ Support track:
 - Ask for a hint after you can show what you tried.
 - Submit honest evidence of progress if the full mission is not finished.
 
-## After Phase 2
+## After This Unit
 
-Next: [Phase 3: JavaScript Basics](../../04-javascript-basics/)
+Next: [JavaScript Basics](../../04-javascript-basics/) — extend the same `web-basics-project/` folder.
 
 Educational materials are copyright © 2026 Wang Morgan. All rights reserved. Students may use these materials for this course. Redistribution or commercial reuse requires permission.

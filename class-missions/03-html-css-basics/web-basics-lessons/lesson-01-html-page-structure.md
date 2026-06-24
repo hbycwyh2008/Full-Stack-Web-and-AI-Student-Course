@@ -2,9 +2,14 @@
 
 ## Lesson Goal
 
-Build your first real webpage with correct HTML document structure so it opens in the browser and introduces you or a fictional product.
+By the end of this lesson, each student should be able to:
 
-By the end of this lesson, you should have an unstyled but complete `index.html` saved in your repo with at least one commit.
+1. Explain the basic parts of a valid HTML5 document.
+2. Build a real page with semantic structure — `header`, `main`, `footer`, headings, and paragraphs.
+3. Save an unstyled `index.html` in `web-basics-project/` with meaningful content in their own words.
+4. Test the page in the browser and confirm the content appears.
+5. Add one improvement during Exit Check without reopening the tutorial.
+6. Submit daily evidence listed below.
 
 ## Required Resource
 
@@ -12,9 +17,11 @@ Open only the resource named in `Individual Learning`. If the resource is longer
 
 ## What to Focus On
 
-Focus on document structure, headings, paragraphs, links, images, and lists. Do not add CSS yet — styling comes in Lesson 2.
+Focus on the pattern you need for today's mission. Do not collect extra tutorials during the first learning block.
 
-## Entry Point Check
+**Today's pattern:** document structure, headings, and paragraphs. Links come in [Lesson 2](lesson-05-html-text-links-lists-images.md); lists and CSS come in [Lesson 3](lesson-02-css-basics-and-selectors.md); images come in [Lesson 4](lesson-06-css-files-and-selectors.md). Do not add CSS yet in this lesson.
+
+## Entry Point Check (0–10 min)
 
 Use the first 10 minutes to answer these before new instruction:
 
@@ -22,32 +29,37 @@ Use the first 10 minutes to answer these before new instruction:
 - What file, tool, or concept should I open first?
 - What is one question I need answered before the mission?
 
-## Individual Learning
+## Individual Learning (10–25 min)
 
 > [!NOTE]
 > **One required resource** for this block — see below. Do not browse extra HTML tutorials during class.
 
-Students work individually first.
+**Required resource — [HTML & CSS Crash Course, Module 1](https://www.coursera.org/learn/html--css-crash-course/home/module/1)** (Kevin Powell / Scrimba).
 
-**Step A — Coursera reading and video:**
+**Class time target:** watch only **items 2, 4, and 5** during the 10–25 minute block. That is about 18 minutes.
 
-1. Open the Coursera course: https://www.coursera.org/learn/html--css-crash-course/home/module/1
-2. Work through the **HTML fundamentals** sections only — document structure, headings, paragraphs, links, images, and lists.
-3. **Stop before CSS sections.** CSS comes in Lesson 2.
-4. Focus on how a valid HTML page is organized from `<!DOCTYPE html>` through `</html>`.
+Item 3 is optional career context. Items 6–8 move to [Lesson 2](lesson-05-html-text-links-lists-images.md). Do **not** try to finish every Coursera HTML item during this class.
 
-**Step B — map the course to this project:**
+Open Module 1 on Coursera. Each item is an interactive Scrimba lesson (video + code). Use **only** the items listed here, **in this order** (CSS and lists come in [Lesson 3](lesson-02-css-basics-and-selectors.md) — skip items 9–13 for now):
 
-The Coursera course builds example pages step by step. Adapt that pattern for this course:
+| Coursera item # | Title | ~Time | When to use |
+|---|---|---|---|
+| 2 | What are HTML and CSS? | 4 min | **Core in class** |
+| 3 | Frontend Career Path | 2 min | Skip unless teacher assigns |
+| 4 | Basic Terminology and Syntax | 5 min | **Core in class** |
+| 5 | Let's write some HTML! | 9 min | **Core in class** |
+
+**Stop here.** Do **not** open item 9 (Intro to CSS) or any later item — CSS starts in [Lesson 3](lesson-02-css-basics-and-selectors.md).
+
+Focus on how a valid HTML page is organized from `<!DOCTYPE html>` through `</html>`.
+
+**Map the course to this project:**
 
 | Course concept | What to build in `web-basics-project/` |
 |---|---|
 | Document skeleton | `<!DOCTYPE html>`, `<html>`, `<head>`, `<body>`, `<title>` |
 | Page title area | One `<h1>` plus a short intro paragraph |
 | Content sections | At least two `<section>` blocks with `<h2>` headings |
-| Links | At least one working `<a href="...">` |
-| Images | At least one `<img>` with meaningful `alt` text |
-| Lists | One `<ul>` or `<ol>` with three items |
 | Semantic layout | Use `<header>`, `<main>`, and `<footer>` where appropriate |
 
 Choose **one** topic for the whole page: a short self-introduction **or** a fictional product page. Do not switch mid-lesson.
@@ -65,9 +77,9 @@ One thing I still do not understand is...
 
 **Student output:** A working unstyled `index.html` with real content, not placeholder lorem ipsum.
 
-## Talk Robin
+## Talk Round 1 (25–40 min)
 
-Each student speaks once before anyone speaks twice.
+Each student speaks once before anyone speaks twice. See [talk-robin-rules.md](../../shared/talk-robin-rules.md).
 
 **Share:**
 
@@ -76,11 +88,11 @@ Each student speaks once before anyone speaks twice.
 3. Where your `<h1>` and one `<h2>` appear
 4. One confusion or question
 
-**Student output:** Group list of useful structure patterns and unclear questions.
+**Pair summary:** Agree on one useful structure pattern and one question for the teacher.
 
-## Group Answer
+## Entry Points Check / Teacher Diagnosis (40–55 min)
 
-As a group, prepare one shared answer:
+**Group answer:**
 
 ```text
 Every valid HTML page must include...
@@ -89,35 +101,25 @@ Every valid HTML page must include...
 Our group still needs help with...
 ```
 
-**Student output:** One group answer.
-
-## Teacher Clarification
-
-The teacher checks what students already understand before explaining.
-
 **Teacher checks:**
 
 1. Do students have a code editor and browser ready?
 2. Can students explain the difference between `<head>` and `<body>`?
 3. Does every page have one clear `<h1>`?
-4. Did anyone put CSS in this lesson? (It should wait until Lesson 2.)
+4. Did anyone add CSS in this lesson? (It should wait until Lesson 2.)
 
-**Teacher explanation rule:** Explain only the unclear parts. Do not run a full teacher-demo-first lesson.
+The teacher explains only the common stuck points before Guided Practice.
 
-The teacher explains only the common stuck points before the mission task.
-
-## Mission Task
-
-Students complete the main task.
+## Guided Practice (55–75 min)
 
 **Task:**
 
 1. Create folder `web-basics-project/` in your course repo.
 2. Create `index.html` with full HTML5 document structure.
 3. Add `<header>`, `<main>`, and `<footer>`.
-4. Include at least: one `<h1>`, two `<h2>`, three paragraphs or list items combined, one link, one list, one image.
+4. Include at least: one `<h1>`, two `<h2>`, and three short paragraphs.
 5. Write real content — your own words, not copied tutorial text.
-6. Open the file in your browser and test every link.
+6. Open the file in your browser and confirm the content appears.
 7. Commit with message: `Add HTML page structure for web basics project`.
 
 **Mission output:**
@@ -126,20 +128,18 @@ Students complete the main task.
 - Semantic structure with visible real content
 - One meaningful commit on GitHub
 
-## Independent Rebuild
+## Exit Check (75–85 min)
 
 > [!IMPORTANT]
-> Independent work: close the Coursera lesson, notes, and AI tools before this block.
-
-Students repeat the workflow independently **without looking at the tutorial**.
+> Independent work: close the Coursera lesson, notes, and AI tools before this block. See [independent-rebuild.md](../../shared/independent-rebuild.md).
 
 This is not a delete-and-redo task. Stay on the same page and add one meaningful improvement.
 
-**Independent rebuild task:**
+**Exit Check task:**
 
 1. Open `index.html` without the Coursera page.
 2. Add one new list item or one new sentence in your own words.
-3. Confirm every opening tag has a matching closing tag (or is self-closing like `<img>`).
+3. Confirm every opening tag has a matching closing tag.
 4. Be ready to explain your page structure orally if called.
 
 **Exit prompts:**
@@ -158,7 +158,7 @@ One thing I still need help with is...
 
 Close full-solution references before this block. You may use your own short checklist, but do not copy a completed answer.
 
-## Evidence to Submit
+## Evidence to Submit (85–90 min)
 
 1. Screenshot of your unstyled page open in the browser
 2. GitHub link to `web-basics-project/index.html`
@@ -171,17 +171,17 @@ You are successful if:
 
 1. Your page opens in the browser with real content.
 2. Your file includes valid document structure and semantic sections.
-3. Your page has at least one link, one list, and one image with `alt` text.
+3. Your page has one clear `<h1>`, at least two sections, and real paragraphs.
 4. You made a meaningful commit on GitHub.
 5. You can explain the difference between HTML structure and CSS styling.
+6. All evidence submitted.
 
 ## Common Problems
 
 | Problem | Try first |
 |---|---|
 | Blank page | Check that content is inside `<body>` and tags are spelled correctly. |
-| Image does not show | Check `src` path; local images go in `images/` inside your project folder. |
-| Link goes nowhere | Check `href` for typos or missing `https://`. |
+| Section heading missing | Check that each main section has an `<h2>`. |
 | Page looks plain | Expected for Lesson 1 — CSS comes next lesson. |
 | Weird characters | Add `<meta charset="UTF-8">` inside `<head>`. |
 
@@ -189,13 +189,13 @@ You are successful if:
 
 Fast track:
 
-If most students complete this lesson in about 45 minutes, continue directly into [Lesson 2](lesson-02-css-basics-and-selectors.md) during the same 90-minute block.
+If most students complete this lesson in about 45 minutes, continue directly into [Lesson 2](lesson-05-html-text-links-lists-images.md) during the same 90-minute block.
 
 Use this only if students have:
 
 1. A working `index.html` in the browser.
 2. Real content in their own words.
-3. Completed the independent rebuild without reopening the tutorial.
+3. Completed Exit Check without reopening the tutorial.
 
 Support track:
 

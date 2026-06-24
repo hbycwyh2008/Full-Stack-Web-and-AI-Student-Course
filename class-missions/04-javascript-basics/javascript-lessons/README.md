@@ -21,19 +21,46 @@ You will add `script.js` and later `data.json` to the **same folder**.
 
 | Lesson | File | Focus |
 |---|---|---|
-| 1 | [lesson-01-javascript-basics.md](lesson-01-javascript-basics.md) | Link JS, console, variables, strings, numbers, booleans, arrays, objects |
-| 2 | [lesson-02-functions-conditionals-and-user-input.md](lesson-02-functions-conditionals-and-user-input.md) | Functions, conditionals, simple decision tools |
-| 3 | [lesson-03-dom-selection-and-page-updates.md](lesson-03-dom-selection-and-page-updates.md) | DOM selection, `textContent`, `classList` |
+| 1 | [lesson-01-javascript-basics.md](lesson-01-javascript-basics.md) | Link JS, console, variables, types, arrays, objects |
+| 2 | [lesson-02-functions-conditionals-and-user-input.md](lesson-02-functions-conditionals-and-user-input.md) | Functions, conditionals, decision logic (console first) |
+| 3 | [lesson-03-dom-selection-and-page-updates.md](lesson-03-dom-selection-and-page-updates.md) | DOM selection, `textContent`, `classList`, page feedback |
 | 4 | [lesson-04-events-and-form-validation.md](lesson-04-events-and-form-validation.md) | Events, form validation, user feedback |
-| 5 | [lesson-05-fetch-json-and-mini-project.md](lesson-05-fetch-json-and-mini-project.md) | Local JSON, `fetch`, final mini project |
+| 5 | [lesson-05-fetch-json-and-mini-project.md](lesson-05-fetch-json-and-mini-project.md) | HTTP/Ajax intro, local JSON, `fetch`, final mini project |
 
-**Estimated time:** 5 lessons × 90 minutes each.
+**Estimated time:** 5 lessons × 90 minutes each if every Coursera-aligned segment is taught in class. Teachers may combine adjacent lessons when students move quickly.
 
-Each lesson follows the standard classroom flow. See [classroom-flow.md](../../shared/classroom-flow.md).
+Each lesson follows the standard **seven-block** classroom flow with time labels:
+
+Entry Point Check → Individual Learning → Talk Round 1 → Entry Points Check / Teacher Diagnosis → Guided Practice → Exit Check → Evidence to Submit.
+
+See [classroom-flow.md](../../shared/classroom-flow.md) and [talk-robin-rules.md](../../shared/talk-robin-rules.md).
+
+## CS1 Scope Limits
+
+This unit is part of the front-end foundation. Keep it practical and small:
+
+- Use selected sections of the Coursera [Introduction to JavaScript and Ajax: Building Web Apps (JHU)](https://www.coursera.org/learn/introduction-to-javascript-and-ajax-building-web-apps-jhu) only.
+- Do **not** require closures, IIFEs, prototypes, constructor functions, jQuery, or the full restaurant backend SPA as core tasks.
+- Use **local `data.json`** with `fetch` — do not require a public API or live backend server for this unit.
+- HTML, CSS, and JavaScript together stay within the broader CS1 front-end lesson budget. Teachers may assign some catch-up Coursera items as homework.
 
 ## Curriculum Reference
 
-This unit is aligned with Coursera [Introduction to JavaScript and Ajax: Building Web Apps (JHU)](https://www.coursera.org/learn/introduction-to-javascript-and-ajax-building-web-apps-jhu/home/module/2). Each lesson assigns specific module sections. Coursera materials are a reference only — mission tasks and evidence are original to this class.
+This unit is aligned with Coursera [Introduction to JavaScript and Ajax: Building Web Apps (JHU)](https://www.coursera.org/learn/introduction-to-javascript-and-ajax-building-web-apps-jhu) (Yaakov Chaikin). The course has **Module 1 — Introduction to Javascript** and **Module 2 — Using Javascript to Build Web Applications**. Most lessons target about **25 minutes** of viewing; longer segments may continue into Guided Practice or homework.
+
+| Class lesson | Coursera module | Coursera items | Approx. viewing time |
+|---|---|---|---|
+| [Lesson 1](lesson-01-javascript-basics.md) | [Module 1](https://www.coursera.org/learn/introduction-to-javascript-and-ajax-building-web-apps-jhu/home/module/1) | 2–5, 10, 12 | ~28 min total; item 12 may finish as homework |
+| [Lesson 2](lesson-02-functions-conditionals-and-user-input.md) | [Module 1](https://www.coursera.org/learn/introduction-to-javascript-and-ajax-building-web-apps-jhu/home/module/1) | 6–7 | ~22 min |
+| [Lesson 3](lesson-03-dom-selection-and-page-updates.md) | [Module 2](https://www.coursera.org/learn/introduction-to-javascript-and-ajax-building-web-apps-jhu/home/module/2) | 2–3 | ~24 min |
+| [Lesson 4](lesson-04-events-and-form-validation.md) | [Module 2](https://www.coursera.org/learn/introduction-to-javascript-and-ajax-building-web-apps-jhu/home/module/2) | 4–5 | ~22 min |
+| [Lesson 5](lesson-05-fetch-json-and-mini-project.md) | [Module 2](https://www.coursera.org/learn/introduction-to-javascript-and-ajax-building-web-apps-jhu/home/module/2) | 6–9 | ~30 min total; HTTP reading may be skimmed in class |
+
+Item 1 in each module is optional orientation. Items on closures, namespaces, OOP depth, and the full restaurant backend connection are **teacher reference or homework only** — not core CS1 mission requirements.
+
+Item numbers and titles should match the Coursera sidebar. If a title differs slightly, match by **item number**.
+
+Coursera materials are a reference only — mission tasks and evidence requirements are original to this class.
 
 ## Final Project
 
@@ -77,8 +104,8 @@ If your teacher assigns it, use one extra 90-minute block for debugging, refacto
 
 ## Optional Support Files
 
-- [../student-handout-js-syntax-bridge.md](../student-handout-js-syntax-bridge.md) — Python ↔ JS comparison for students with prior coding experience
-- [../optional-javascript-interactive-profile.md](../optional-javascript-interactive-profile.md) — extra practice (optional)
+- [../student-handout-js-syntax-bridge.md](../student-handout-js-syntax-bridge.md) — Python ↔ JS comparison for students with prior coding experience (if your teacher provides it)
+- [../optional-javascript-interactive-profile.md](../optional-javascript-interactive-profile.md) — extra practice (optional, if your teacher provides it)
 
 ## Advanced Ideas (Teacher Reference Only)
 

@@ -2,9 +2,13 @@
 
 ## Lesson Goal
 
-Complete the JavaScript mini-unit by loading data from a local `data.json` file with `fetch`, rendering it on the page, and submitting your final interactive project as Phase 3 evidence.
+By the end of this lesson, each student should be able to:
 
-By the end of this lesson, your page should display a list or cards from JSON data — not only hardcoded HTML content.
+1. Explain what JSON is and why data can live outside HTML.
+2. Load local `data.json` with `fetch` and render items on the page.
+3. Show a user-friendly message when loading fails.
+4. Complete the Phase 3 mini project with README and rubric self-check.
+5. Submit final unit evidence listed below.
 
 ## Required Resource
 
@@ -12,9 +16,9 @@ Open only the resource named in `Individual Learning`. If the resource is longer
 
 ## What to Focus On
 
-Focus on JSON structure, `fetch("data.json")`, `.then()`, basic error handling, and rendering data into the DOM. Use **local JSON first** — do not require a public API for this unit.
+Focus on JSON structure, HTTP/Ajax concepts, `fetch("data.json")`, `.then()`, basic error handling, and rendering data into the DOM. Use **local JSON first** — do not require a public API or restaurant backend for this unit.
 
-## Entry Point Check
+## Entry Point Check (0–10 min)
 
 Use the first 10 minutes to answer these before new instruction:
 
@@ -22,23 +26,29 @@ Use the first 10 minutes to answer these before new instruction:
 - What file, tool, or concept should I open first?
 - What is one question I need answered before the mission?
 
-## Individual Learning
+## Individual Learning (10–25 min)
 
 > [!NOTE]
 > **One required resource** for this block — see below. Do not browse extra JavaScript tutorials during class.
 
-Students work individually first.
+**Required resource — [Introduction to JavaScript and Ajax, Module 2](https://www.coursera.org/learn/introduction-to-javascript-and-ajax-building-web-apps-jhu/home/module/2)** (JHU / Yaakov Chaikin).
 
-**Step A — Coursera reading and video:**
+**Class time target:** watch **items 7, 8, and 9** during the 10–25 minute block. That is about 24 minutes. Skim **item 6** (HTTP reading) as homework if your teacher assigns it.
 
-1. Open the Coursera course: https://www.coursera.org/learn/introduction-to-javascript-and-ajax-building-web-apps-jhu/home/module/2
-2. Work through the **Ajax and JSON** sections — what JSON is, loading data asynchronously, and updating the page with fetched data.
-3. Focus on the idea that data can live outside HTML and be loaded when needed.
-4. Map Coursera examples to **local** `data.json` in your repo — same pattern, more reliable for beginners.
+The restaurant backend SPA at the end of Module 2 is **reference only** — this class uses local `data.json` instead.
 
-**Step B — choose your final project:**
+| Coursera item # | Title | ~Time | When to use |
+|---|---|---|---|
+| 6 | Reading: HTTP Basics | 8 min | Skim in class or homework |
+| 7 | Lecture: Ajax — Part 1 | 10 min | **Core in class** |
+| 8 | Lecture: Ajax — Part 2 | 8 min | **Core in class** |
+| 9 | Lecture: JSON | 6 min | **Core in class** |
 
-Pick **one** data-driven mini project:
+**Stop here for new course topics.** Later Module 2 items about the full restaurant backend are optional teacher reference.
+
+Map Coursera examples to **local** `data.json` in your repo — same pattern, more reliable for beginners.
+
+**Choose your final project:**
 
 | Project | Example `data.json` content |
 |---|---|
@@ -63,9 +73,9 @@ One thing I still do not understand is...
 
 **Student output:** Draft `data.json` structure with at least three items.
 
-## Talk Robin
+## Talk Round 1 (25–40 min)
 
-Each student speaks once before anyone speaks twice.
+Each student speaks once before anyone speaks twice. See [talk-robin-rules.md](../../shared/talk-robin-rules.md).
 
 **Share:**
 
@@ -74,11 +84,11 @@ Each student speaks once before anyone speaks twice.
 3. Where loaded data will appear on the page
 4. One confusion or question
 
-**Student output:** Group list of project ideas and unclear questions.
+**Pair summary:** Agree on one JSON field pattern and one question for the teacher.
 
-## Group Answer
+## Entry Points Check / Teacher Diagnosis (40–55 min)
 
-As a group, prepare one shared answer:
+**Group answer:**
 
 ```text
 JSON stores data as...
@@ -87,26 +97,16 @@ If data.json is missing, we should...
 Our group still needs help with...
 ```
 
-**Student output:** One group answer.
-
-## Teacher Clarification
-
-The teacher checks what students already understand before explaining.
-
 **Teacher checks:**
 
 1. Do Lessons 1–4 features still work on the same page?
 2. Can students open `data.json` in the editor and validate array/object shape?
 3. Do students know `fetch` must run from a served page or local server if `file://` blocks fetch? (Teacher may demo Live Server or similar.)
-4. Are students using `.catch()` or `try/catch` for basic error handling?
+4. Are students using `.catch()` or basic error handling?
 
-**Teacher explanation rule:** Explain only the unclear parts. Do not run a full teacher-demo-first lesson.
+The teacher explains only the common stuck points before Guided Practice.
 
-The teacher explains only the common stuck points before the mission task.
-
-## Mission Task
-
-Students complete the main task.
+## Guided Practice (55–75 min)
 
 **Task:**
 
@@ -222,6 +222,18 @@ Three bullet points from Lessons 1–5.
 - Error handling for failed load
 - Updated README and meaningful commit history across the unit
 
+## Exit Check (75–85 min)
+
+> [!IMPORTANT]
+> Independent work: close the Coursera lesson, notes, and AI tools before this block. See [independent-rebuild.md](../../shared/independent-rebuild.md).
+
+**Exit Check task:**
+
+1. Change list output to show one more JSON field (for example, `level` or `price`).
+2. Add a filter button that shows only items matching one condition.
+3. Confirm error handling still works.
+4. Commit: `Improve JSON display and add filter`.
+
 **Final project rubric — self-check before submission:**
 
 | Criterion | Strong | Developing | Starting |
@@ -236,20 +248,6 @@ Three bullet points from Lessons 1–5.
 | Code readability | Clear names, organized sections | Mostly readable | Hard to follow |
 | GitHub evidence | Screenshots, commits, README | Most evidence present | Missing key evidence |
 | Reflection quality | Specific about build and learning | General but honest | Vague or missing |
-
-## Independent Rebuild
-
-> [!IMPORTANT]
-> Independent work: close the Coursera lesson, notes, and AI tools before this block.
-
-Students repeat the workflow independently **without looking at the tutorial**.
-
-**Independent rebuild task:**
-
-1. Change list output to show one more JSON field (for example, `level` or `price`).
-2. Add a filter button that shows only items matching one condition.
-3. Confirm error handling still works.
-4. Commit: `Improve JSON display and add filter`.
 
 **Exit prompts:**
 
@@ -266,7 +264,7 @@ One thing I still need help with is...
 
 Close full-solution references before this block. You may use your own short checklist, but do not copy a completed answer.
 
-## Evidence to Submit
+## Evidence to Submit (85–90 min)
 
 1. Screenshot showing loaded data rendered on the page
 2. Screenshot showing error message when load fails (teacher may guide test)
