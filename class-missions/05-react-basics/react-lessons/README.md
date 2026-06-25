@@ -1,13 +1,14 @@
 # React Basics Mini-Unit
 
-Build a small React + Vite interface that collects input, displays state, renders lists, and loads JSON with `fetch()`.
+Build one growing React + Vite app in `react-practice/` — from the **ReactFacts** static site through **Travel Journal** props and lists, then **state**, **forms**, and **`fetch`**.
 
 ## Unit Goal
 
 By the end of this unit, each student should be able to build a React app in `react-practice/` that:
 
 - Uses JSX, components, props, and state
-- Renders a list from an array with `.map()` and `key`
+- Includes a completed ReactFacts static page (Module 2)
+- Renders a Travel Journal–style list from an array with `.map()` and `key`
 - Handles form input and conditional UI
 - Calls `fetch()` and shows loading or error feedback in the UI
 
@@ -23,15 +24,15 @@ Complete the [JavaScript mini-unit](../../04-javascript-basics/javascript-lesson
 
 ## Lesson Sequence
 
-| Lesson | File | Focus |
-|---|---|---|
-| 1 | [lesson-01-jsx-and-first-components.md](lesson-01-jsx-and-first-components.md) | Vite setup, JSX, first component |
-| 2 | [lesson-02-components-and-styling.md](lesson-02-components-and-styling.md) | Parent/child components, CSS classes |
-| 3 | [lesson-03-props-and-reusable-components.md](lesson-03-props-and-reusable-components.md) | Props, reusable cards |
-| 4 | [lesson-04-lists-map-and-keys.md](lesson-04-lists-map-and-keys.md) | Arrays, `.map()`, `key` |
-| 5 | [lesson-05-state-and-events.md](lesson-05-state-and-events.md) | `useState`, click handlers, controlled input |
-| 6 | [lesson-06-forms-and-conditional-ui.md](lesson-06-forms-and-conditional-ui.md) | Forms, conditional rendering, lifted state |
-| 7 | [lesson-07-useeffect-and-fetch.md](lesson-07-useeffect-and-fetch.md) | `useEffect`, `fetch`, Phase 4 checkpoint |
+| Lesson | File | Coursera focus | Class mission |
+|---|---|---|---|
+| 1 | [lesson-01-jsx-and-first-components.md](lesson-01-jsx-and-first-components.md) | Module 1 — Getting Started | Vite setup, JSX, first component |
+| 2 | [lesson-02-components-and-styling.md](lesson-02-components-and-styling.md) | Module 2 — Building with React | **ReactFacts** — components + CSS |
+| 3 | [lesson-03-props-and-reusable-components.md](lesson-03-props-and-reusable-components.md) | Module 4 — Props | Travel Journal `Entry` with props |
+| 4 | [lesson-04-lists-map-and-keys.md](lesson-04-lists-map-and-keys.md) | Module 5 — Arrays | Map journal entries from data |
+| 5 | [lesson-05-state-and-events.md](lesson-05-state-and-events.md) | Module 7–8 (partial) | `useState`, events, toggle |
+| 6 | [lesson-06-forms-and-conditional-ui.md](lesson-06-forms-and-conditional-ui.md) | Module 8–9 (partial) | Forms, conditional UI |
+| 7 | [lesson-07-useeffect-and-fetch.md](lesson-07-useeffect-and-fetch.md) | Module 12–13 (partial) | `useEffect`, `fetch`, checkpoint |
 
 **Estimated time:** 7 lessons × 90 minutes each.
 
@@ -55,19 +56,30 @@ Do **not** teach as core requirements in this unit:
 
 This unit is aligned with the Coursera course [Learn React](https://www.coursera.org/learn/learn-react) (Bob Ziroll / Scrimba). The course has **20 modules** on Coursera; CS1 uses **7 class lessons** mapped to **9 content modules** below. Test/quiz modules (3, 6, 11, 14, 15–20) are optional homework only.
 
-**Self-study rule:** In each lesson, watch only the Coursera items listed in **Individual Learning**. Maximum **30 minutes** of viewing per lesson during the self-study block. Finish extra scrims during Guided Practice or as homework if your teacher assigns them.
+**Self-study rule:** Watch Coursera **only** during **Individual Learning** (or as assigned homework). Maximum **~30 minutes** of in-class viewing per lesson. **Do not open Coursera during Guided Practice, Exit Check, or independent rebuild** — those blocks are hands-on coding only.
 
-Item titles and numbers below were verified against the Coursera course API (March 2026). **Item numbers restart at 1 inside each module.**
+Item titles and numbers below were verified against the Coursera course API (June 2026). **Item numbers restart at 1 inside each module.**
 
-| Class lesson | Coursera module | Module title | Assigned items (max ~30 min) |
+| Class lesson | Coursera module | Module title | Assigned items |
 |---|---|---|---|
-| [Lesson 1](lesson-01-jsx-and-first-components.md) | [Module 1](https://www.coursera.org/learn/learn-react/home/module/1) | Static pages in React 01 — Getting Started | 3–6, 9–10 (~26 min) |
-| [Lesson 2](lesson-02-components-and-styling.md) | [Module 2](https://www.coursera.org/learn/learn-react/home/module/2) | Static pages in React 02 — Building with React | 3–4, 6–8 (~26 min) |
+| [Lesson 1](lesson-01-jsx-and-first-components.md) | [Module 1](https://www.coursera.org/learn/learn-react/home/module/1) | Static pages in React 01 — Getting Started | IL: 3–6, 9–10 (~26 min) |
+| [Lesson 2](lesson-02-components-and-styling.md) | [Module 2](https://www.coursera.org/learn/learn-react/home/module/2) | Static pages in React 02 — Building with React | IL: 1, 3–4, 6–8 (~30 min); HW: 9–15 (~36 min) |
 | [Lesson 3](lesson-03-props-and-reusable-components.md) | [Module 4](https://www.coursera.org/learn/learn-react/home/module/4) | Data-Driven React 01 — Understanding Props | 5–6, 9–10, 12 (~26 min) |
 | [Lesson 4](lesson-04-lists-map-and-keys.md) | [Module 5](https://www.coursera.org/learn/learn-react/home/module/5) | Data-Driven React 02 — Arrays and Advanced Props | 3, 5–8 (~28 min) |
-| [Lesson 5](lesson-05-state-and-events.md) | [Module 8](https://www.coursera.org/learn/learn-react/home/module/8) | React State 02 — State Management (partial) | 1–3, 5, 10 (~26 min) |
+| [Lesson 5](lesson-05-state-and-events.md) | [Module 7](https://www.coursera.org/learn/learn-react/home/module/7) + [Module 8](https://www.coursera.org/learn/learn-react/home/module/8) | Events + State basics | M7: 5; M8: 1–3, 5, 10 (~28 min) |
 | [Lesson 6](lesson-06-forms-and-conditional-ui.md) | [Module 8](https://www.coursera.org/learn/learn-react/home/module/8) + [Module 9](https://www.coursera.org/learn/learn-react/home/module/9) | Forms + Conditional Rendering | M8: 15, 17, 19; M9: 2, 5 (~27 min) |
 | [Lesson 7](lesson-07-useeffect-and-fetch.md) | [Module 12](https://www.coursera.org/learn/learn-react/home/module/12) + [Module 13](https://www.coursera.org/learn/learn-react/home/module/13) | Side Effects — Meme Generator + fetch/useEffect | M12: 4–5; M13: 1–3 (~25 min) |
+
+### Module 2 — what students learn
+
+[Module 2](https://www.coursera.org/learn/learn-react/home/module/2) is the **ReactFacts** project. Students should **not** build a separate portfolio layout in this lesson. The Coursera module covers:
+
+1. ReactFacts markup preview
+2. Custom components and parent/child composition
+3. Fragments and styling with CSS classes
+4. Organizing files and completing the ReactFacts navbar, main content, bullets, and background
+
+Lessons 3–4 follow the **Travel Journal** arc (Modules 4–5) by adding journal `Entry` components below the ReactFacts section in the same app.
 
 Coursera materials are a reference only — mission tasks and evidence are original to this class.
 
@@ -75,8 +87,8 @@ Coursera materials are a reference only — mission tasks and evidence are origi
 
 Submit a working `react-practice/` app that includes:
 
-- Multiple components with props
-- A list rendered from an array
+- ReactFacts static page (Navbar, Main, styled facts list)
+- Travel Journal entries with props and `.map()`
 - Interactive state (toggle or form)
 - `fetch()` with loading and error UI
 - Updated `README.md` with run instructions and what you learned
@@ -96,7 +108,13 @@ react-practice/
 ├── src/
 │   ├── App.jsx
 │   ├── main.jsx
+│   ├── App.css
 │   └── components/
+│       ├── Navbar.jsx
+│       ├── Main.jsx
+│       ├── Footer.jsx
+│       ├── Entry.jsx
+│       └── ...
 ├── public/
 ├── README.md
 └── package.json

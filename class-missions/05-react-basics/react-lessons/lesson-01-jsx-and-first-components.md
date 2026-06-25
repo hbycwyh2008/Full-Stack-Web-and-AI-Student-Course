@@ -13,13 +13,13 @@ By the end of this lesson, each student should be able to:
 
 ## Required Resource
 
-Open only the resource named in `Individual Learning`. **Self-study cap: 30 minutes maximum.** Watch only the listed Coursera items; finish any extra scrims during Guided Practice or as homework.
+Open only the resource named in `Individual Learning`. **Self-study cap: 30 minutes maximum.** Watch only the listed Coursera items during that block. Optional homework items are listed there — **do not open Coursera during Guided Practice or Exit Check.**
 
 ## What to Focus On
 
 Focus on the pattern you need for today's mission. Do not collect extra tutorials during the first learning block.
 
-**Today's pattern:** first React code, JSX, composable ideas, and Vite setup. Custom components and CSS classes come in [Lesson 2](lesson-02-components-and-styling.md). Do **not** open Module 2 today.
+**Today's pattern:** first React code, JSX, composable ideas, and Vite setup. The **ReactFacts** project (Module 2) starts in [Lesson 2](lesson-02-components-and-styling.md). Do **not** open Module 2 today.
 
 ## Entry Point Check (0–10 min)
 
@@ -58,7 +58,7 @@ Items 1–2 (intro/welcome) and 7–8 (Libraries, React.createElement) are optio
 | Course concept | What to build in `react-practice/` |
 |---|---|
 | Vite + React project | New folder in your course repo |
-| `App.jsx` | Show your name + `Phase 4 React` |
+| `App.jsx` | Temporary first component (your name + `Phase 4 React`) — Lesson 2 refactors this into ReactFacts |
 | `README.md` | How to run `npm install` and `npm run dev` |
 | DevTools Console | Check for red errors on load |
 
@@ -108,6 +108,9 @@ Our group still needs help with...
 The teacher explains only the common stuck points before Guided Practice.
 
 ## Guided Practice (55–75 min)
+
+> [!IMPORTANT]
+> Close Coursera before this block. Use your notes and the task list below — no videos during hands-on practice.
 
 **Task:**
 

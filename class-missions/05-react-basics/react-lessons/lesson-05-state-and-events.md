@@ -15,7 +15,7 @@ By the end of this lesson, each student should be able to:
 
 ## Required Resource
 
-Open only the resource named in `Individual Learning`. **Self-study cap: 30 minutes maximum.** Module 8 forms continue in [Lesson 6](lesson-06-forms-and-conditional-ui.md).
+Open only the resource named in `Individual Learning`. **Self-study cap: 30 minutes maximum.** **Do not open Coursera during Guided Practice or Exit Check.**
 
 ## What to Focus On
 
@@ -36,23 +36,25 @@ Use the first 10 minutes to answer these before new instruction:
 > [!NOTE]
 > **One required resource** for this block — see below. Do not browse extra React tutorials during class.
 
-**Required resource — [Learn React, Module 8](https://www.coursera.org/learn/learn-react/home/module/8)** (Bob Ziroll / Scrimba): **React State 02 — State Management and React Forms** (partial — state basics only).
+**Required resource — two Coursera modules, selected items only:**
 
-**Self-study cap:** watch only the items below during this block. Total **~26 minutes**. Do **not** open form scrims (items 15+) in self-study — those are [Lesson 6](lesson-06-forms-and-conditional-ui.md).
+1. [Module 7](https://www.coursera.org/learn/learn-react/home/module/7) — **React State 01 — Introduction and Basics** (events only)
+2. [Module 8](https://www.coursera.org/learn/learn-react/home/module/8) — **React State 02 — State Management and React Forms** (state basics only)
 
-Skip [Module 7](https://www.coursera.org/learn/learn-react/home/module/7) (Chef Claude setup) unless your teacher assigns it as homework.
+**Self-study cap:** watch only the items below during this block. Total **~28 minutes**. Do **not** open form scrims (Module 8 items 15+) in self-study — those are [Lesson 6](lesson-06-forms-and-conditional-ui.md).
 
-Open Module 8 on Coursera. Use **only** these items:
+Open the modules on Coursera. Use **only** these items:
 
-| Item # | Title | ~Time | When to use |
-|---|---|---|---|
-| 1 | Props vs. State: Props | 4 min | **Core in class** |
-| 2 | Props vs. State: State | 5 min | **Core in class** |
-| 3 | `useState` | 5 min | **Core in class** |
-| 5 | Changing state | 5 min | **Core in class** |
-| 10 | Toggling state | 7 min | **Core in class** |
+| Item # | Title | Module | ~Time | When to use |
+|---|---|---|---|---|
+| 5 | Event Listeners | 7 | 6 min | **Core in class** |
+| 1 | Props vs. State: Props | 8 | 4 min | **Core in class** |
+| 2 | Props vs. State: State | 8 | 5 min | **Core in class** |
+| 3 | `useState` | 8 | 5 min | **Core in class** |
+| 5 | Changing state | 8 | 5 min | **Core in class** |
+| 10 | Toggling state | 8 | 7 min | **Core in class** |
 
-**Stop here (~26 min).** Item 4 (`useState` array destructuring) and items 6–9 are optional homework. Controlled input practice is in Guided Practice and Lesson 6.
+**Stop in-class viewing after item 10 (~28 min).** Module 7 items 1–4 and 6 (Chef Claude build) are **homework**. Module 8 item 4 (`useState` array destructuring) and items 6–9 are **homework**. Form topics continue in [Lesson 6](lesson-06-forms-and-conditional-ui.md).
 
 Skip [Module 10](https://www.coursera.org/learn/learn-react/home/module/10) (API Integration / AI chef) — not core for CS1.
 
@@ -60,8 +62,8 @@ Skip [Module 10](https://www.coursera.org/learn/learn-react/home/module/10) (API
 
 | Course concept | What to build in `react-practice/` |
 |---|---|
-| Boolean state | Toggle visibility of a paragraph or detail |
-| String state | Controlled `<input>` for search or filter text |
+| Boolean state | Toggle visibility of ReactFacts details or an extra journal section |
+| String state | Controlled `<input>` to filter journal entries by country or title |
 | Handlers | Named functions or inline setters — be consistent |
 
 **Individual notes:**
@@ -107,6 +109,9 @@ Our group still needs help with...
 The teacher explains only the common stuck points before Guided Practice.
 
 ## Guided Practice (55–75 min)
+
+> [!IMPORTANT]
+> Close Coursera before this block. Build from the task list and your notes — no videos during hands-on practice.
 
 **Task:**
 
@@ -175,7 +180,7 @@ Close full-solution references before this block. You may use your own short che
 1. Screenshot before and after toggle click
 2. Screenshot showing controlled input with typed text
 3. GitHub link showing `useState` and handlers in component
-4. Coursera Module 8 progress screenshot (items 1–3, 5, 10)
+4. Coursera Module 7–8 progress screenshot (items listed above)
 5. One sentence: "State is different from props because..."
 
 ## Success Criteria
@@ -201,7 +206,7 @@ You are successful if:
 
 Fast track:
 
-Finish Module 8 controlled-input scrims (items 15–17) before [Lesson 6](lesson-06-forms-and-conditional-ui.md) if time allows.
+Watch Module 8 controlled-input items (15–17) as **homework** before [Lesson 6](lesson-06-forms-and-conditional-ui.md) if time allows.
 
 Support track:
 

@@ -1,4 +1,4 @@
-# Lesson 10: Client vs Server Components and Phase 4 Submission
+# Lesson 3: Client vs Server Components and Unit Submission
 
 ## Lesson Goal
 
@@ -6,20 +6,24 @@ By the end of this lesson, each student should be able to:
 
 1. Explain client vs server components in beginner terms.
 2. Mark an interactive component with `'use client'` and use `useState` in Next.js.
-3. Add one dynamic route or dynamic segment (Module 3 concept).
-4. Complete Phase 4 evidence checklist in repo and Notion.
-5. Orally explain the path from Phase 4 → course Phase 5 TypeScript → Phase 6 `nextjs-frontend/`.
-6. Submit all Phase 4 evidence including both Coursera courses progress.
+3. Add one dynamic route segment (for example `app/projects/[id]/page.jsx`).
+4. Complete front-end checkpoint evidence in repo and Notion.
+5. Add one UI improvement during Exit Check without reopening Coursera.
+6. Submit all unit evidence listed below.
+
+> **Prerequisite:** [Lesson 2](lesson-02-nextjs-routing-and-layouts.md) — routes and shared layout work.
 
 ## Required Resource
 
-Open only the resource named in `Individual Learning`. If the resource is longer than 15 minutes, complete the assigned section in class and finish the rest as homework if your teacher assigns it.
+Open only the resource named in `Individual Learning`. **Self-study cap: 30 minutes maximum.** **Do not open Coursera during Guided Practice or Exit Check.**
 
 ## What to Focus On
 
 Focus on the pattern you need for today's mission. Do not collect extra tutorials during the first learning block.
 
-## Entry Point Check
+**Today's pattern:** `Link` navigation, client vs server components, dynamic routes — same skills as Coursera **PrintForge** Module 3. This lesson is the **unit checkpoint** for React + Next.js practice folders.
+
+## Entry Point Check (0–10 min)
 
 Use the first 10 minutes to answer these before new instruction:
 
@@ -27,16 +31,40 @@ Use the first 10 minutes to answer these before new instruction:
 - What file, tool, or concept should I open first?
 - What is one question I need answered before the mission?
 
-## Individual Learning
+## Individual Learning (10–40 min)
 
 > [!NOTE]
-> **One required resource** for this block — see below. Do not browse extra playlists during class.
+> **One required resource** for this block — see below. Do not browse extra Next.js tutorials during class.
 
-**Required resource — complete [Learn Next.js Module 3](https://www.coursera.org/learn/learn-nextjs/home/module/3):** Components, Links & Dynamic Pages (~1 hour).
+**Required resource — [Learn Next.js, Module 3](https://www.coursera.org/learn/learn-nextjs/home/module/3)** (Scrimba): **Components, Links & Dynamic Pages**.
 
-Include: component types, **client vs server components**, dynamic routing (PrintForge / model-based pages).
+**Self-study cap:** watch only the **Core in class** items below during this block. Total **~22 minutes**.
 
-Reference: [Client vs server aside](https://www.coursera.org/learn/learn-nextjs/ungradedWidget/cBgd0/aside-client-vs-server-components) in Module 3 if linked from course.
+Open [Module 3](https://www.coursera.org/learn/learn-nextjs/home/module/3) on Coursera. Item numbers **restart at 1 inside each module**.
+
+| Item # | Title | ~Time | When to use |
+|---|---|---|---|
+| 1 | Links in Next.js | 4 min | **Core in class** |
+| 2 | Challenge — Add Links to Navbar | 3 min | **Core in class** |
+| 4 | Aside: Client vs. Server Components | 6 min | **Core in class** |
+| 6 | Dynamic Routes | 9 min | **Core in class** |
+| 5 | Challenge — Create the Models List Page | 5 min | **Homework** |
+| 7 | Model Detail Page | 5 min | **Homework** |
+| 3 | Aside: TypeScript Organization in PrintForge | 4 min | **Homework** |
+| 9 | Section 1 Recap | 3 min | **Homework** |
+
+**Stop in-class viewing after item 6 (~22 min).** Items 5, 7, 3, and 9 are **homework**.
+
+Optional reading: [Client vs server aside](https://www.coursera.org/learn/learn-nextjs/ungradedWidget/cBgd0/aside-client-vs-server-components) if linked from the course.
+
+**Map the course to this project:**
+
+| Course concept | What to build in `nextjs-practice/` |
+|---|---|
+| `'use client'` | Interactive toggle or button component |
+| Server `page.jsx` | Imports client component; no `useState` in server file |
+| `app/projects/[id]/page.jsx` | Shows project id from `params` |
+| Checkpoint doc | Links to `react-practice/` + `nextjs-practice/` |
 
 **Individual notes:**
 
@@ -44,100 +72,155 @@ Reference: [Client vs server aside](https://www.coursera.org/learn/learn-nextjs/
 Server components run...
 Client components need 'use client' when...
 Dynamic routes use...
-After Phase 4 I will learn TypeScript in...
-The AI School Assistant frontend will live in...
+My dynamic route will show...
 One thing I still do not understand is...
 ```
 
-## Talk Robin
+**Student output:** Notes + Module 3 progress started.
 
-**Share:** when you need `'use client'`; one dynamic route idea; one question about Phase 6.
+## Talk Round 1 (25–40 min)
 
-## Group Answer
+Each student speaks once before anyone speaks twice. See [talk-robin-rules.md](../shared/talk-robin-rules.md).
+
+**Share:**
+
+1. When you need `'use client'`
+2. One dynamic route idea (`/projects/1`, etc.)
+3. One skill from `react-practice/` you reused in Next.js
+4. One confusion or question
+
+**Pair summary:** Agree on one client-vs-server rule and one question for the teacher.
+
+## Entry Points Check / Teacher Diagnosis (40–55 min)
+
+**Group answer:**
 
 ```text
-Phase 4 prepared us for Next.js because...
+React practice prepared us for Next.js because...
 Our group still needs help with...
 ```
 
-## Teacher Clarification
+**Teacher checks:**
 
-**Teacher checks:** Both `react-practice/` and `nextjs-practice/` run; students know folder names for Phase 6.
+1. Do both `react-practice/` and `nextjs-practice/` run?
+2. Can students explain why `useState` belongs in a client file?
+3. Can students name the folder pattern for a dynamic segment?
 
-The teacher explains only the common stuck points before the mission task.
+The teacher explains only the common stuck points before Guided Practice.
 
-## Mission Task
+## Guided Practice (55–75 min)
 
-1. Create a client component (e.g. `app/components/ProjectToggle.jsx` with `'use client'`) that toggles detail text with `useState`.
-2. Import it into a server page (default `page.jsx`).
-3. Add one dynamic route, e.g. `app/projects/[id]/page.jsx`, showing project id from params (static array lookup is fine).
-4. Update root `README.md` or add `phase-4-evidence.md` with links to both folders + Coursera screenshots list.
-5. Commit: `Add client component and dynamic route for Phase 4`.
+> [!IMPORTANT]
+> Close Coursera before this block. Use your notes and the task list below — no videos during hands-on practice.
 
-## Independent Rebuild
+**Task:**
 
-**Independent rebuild (oral if called):**
+1. Create a client component, for example `app/components/ProjectToggle.jsx`:
 
-1. Without notes, explain: JSX → props → state → fetch → Next layout → client component.
-2. Point to where FastAPI will connect in Phase 6–7.
+```jsx
+"use client";
 
-Update Notion portfolio with Phase 4 block: links to GitHub folders + one screenshot.
+import { useState } from "react";
+
+export default function ProjectToggle() {
+  const [open, setOpen] = useState(false);
+  return (
+    <div>
+      <button type="button" onClick={() => setOpen(!open)}>
+        {open ? "Hide details" : "Show details"}
+      </button>
+      {open && <p>Extra project detail text here.</p>}
+    </div>
+  );
+}
+```
+
+2. Import it into a server page (default `app/projects/page.jsx` or home page).
+3. Add one dynamic route, for example `app/projects/[id]/page.jsx`, reading `params.id` and showing matching title from your hard-coded array.
+4. Update root `README.md` or add `front-end-evidence.md` with links to both practice folders.
+5. Commit with message: `Add client component and dynamic route`.
+
+**Mission output:**
+
+- Client component toggles UI with `useState`
+- Dynamic route shows different content per `id`
+- Checkpoint doc or README lists both projects
+- One meaningful commit on GitHub
+
+## Exit Check (75–85 min)
+
+> [!IMPORTANT]
+> Independent work: close Coursera, notes, and AI tools before this block. See [independent-rebuild.md](../shared/independent-rebuild.md).
+
+**Exit Check task:**
+
+1. Without Coursera, add one more line of text to the dynamic route page template.
+2. Be ready to explain orally: when a component must be a client component.
+3. Update Notion portfolio with links to both GitHub folders + one screenshot.
+
+**Exit prompts:**
+
+```text
+'use client' is needed when...
+My dynamic route folder is...
+Server page vs client component in my app...
+One thing I can now do without Coursera is...
+One thing I still need help with is...
+```
+
+**Oral check if called:** Trace JSX → props → state → fetch → Next layout → client component → dynamic route.
 
 Close full-solution references before this block. You may use your own short checklist, but do not copy a completed answer.
 
-## Evidence to Submit
+## Evidence to Submit (85–90 min)
 
 1. GitHub links: `react-practice/` and `nextjs-practice/`
-2. Screenshot: client component interaction on Next page
+2. Screenshot: client component interaction on a Next page
 3. Screenshot: dynamic route showing different `id`
-4. Coursera progress: Learn React (modules completed in this track) + Learn Next.js (Modules 1–3)
-5. Notion portfolio update with Phase 4 section
-6. Written answer (5–8 sentences): “Phase 4 → Phase 5 TS → Phase 6 Next AI UI”
-7. Commit history across Phase 4 (teacher may require **8+** meaningful commits total)
+4. Coursera progress: Learn React (modules your teacher assigned) + Learn Next.js Modules 1–3
+5. Notion portfolio update with front-end practice section
+6. One sentence: "Client components are needed when..."
 
 ## Success Criteria
 
 You are successful if:
 
-1. Both projects run locally.
-2. You used props, state, list map, and fetch in `react-practice/`.
-3. You used routes, layout, `'use client'`, and one dynamic route in `nextjs-practice/`.
+1. Both `react-practice/` and `nextjs-practice/` run locally.
+2. `react-practice/` shows components, props, list map, state, and fetch (from Unit 05).
+3. `nextjs-practice/` shows routes, layout, `'use client'`, and one dynamic route.
 4. You can explain client vs server without reading slides.
-5. Notion + GitHub evidence complete.
+5. Notion + GitHub evidence submitted.
 
 ## Common Problems
 
 | Problem | Try first |
 |---|---|
-| `useState` error in page | Move interactivity to `'use client'` file. |
-| Dynamic route 404 | Folder `[id]` spelling; export default page component. |
-| Missing Phase 3 skills | Review Phase 3 fetch lesson before demo. |
+| `useState` error in page | Move interactivity to a `'use client'` file; import into server page. |
+| Dynamic route 404 | Folder must be `[id]`; export default page component. |
+| `params` undefined | In App Router, read `params` from page props; check Next.js version docs if shape differs. |
+| Missing React skills | Review [Unit 05](../05-react-basics/react-lessons/) before demo. |
 
-## Phase 4 Completion Checklist
+## Unit Completion Checklist
 
 ```text
-[ ] react-practice/ runs — components, props, map, state, fetch
-[ ] nextjs-practice/ runs — routes, layout, client component, dynamic route
-[ ] Coursera Learn React modules 1,2,4,5,7,8,9,12,13 (+ optional 10) done
-[ ] Coursera Learn Next.js modules 1,2,3 done
+[ ] react-practice/ — components, props, map, state, fetch
+[ ] nextjs-practice/ — routes, layout, client component, dynamic route
+[ ] Coursera Learn React — modules assigned by teacher
+[ ] Coursera Learn Next.js — Modules 1, 2, 3
 [ ] Notion updated
-[ ] Can explain path to nextjs-frontend/ (course Phase 6)
+[ ] Can explain how a future full-stack app connects frontend to FastAPI
 ```
 
 ## Fast Track / Support Track
 
 Fast track:
 
-Students who finish early may ask your teacher for optional preview reading — do not start the full AI app until course Phase 6.
-
-## After Phase 4
-
-**Course track (not class missions folder numbering):** Phase 5 TypeScript → Phase 6 Next.js Frontend. Your teacher will share the formal overview.
+Students who finish early may preview Unit 10 integration reading — do not start the full AI app until your teacher assigns it.
 
 Support track:
 
-- Complete the smallest working version first.
+- Complete client toggle + one static dynamic route first.
 - Ask for a hint after you can show what you tried.
-- Submit honest evidence of progress if the full mission is not finished.
+- Submit honest evidence of progress if the full checkpoint is not finished.
 
 Educational materials are copyright © 2026 Wang Morgan. All rights reserved. Students may use these materials for this course. Redistribution or commercial reuse requires permission.

@@ -15,7 +15,7 @@ By the end of this lesson, each student should be able to:
 
 ## Required Resource
 
-Open only the resource named in `Individual Learning`. **Self-study cap: 30 minutes maximum.** Meme Generator build scrims and full `useEffect` practice continue in Guided Practice.
+Open only the resource named in `Individual Learning`. **Self-study cap: 30 minutes maximum.** **Do not open Coursera during Guided Practice or Exit Check.**
 
 ## What to Focus On
 
@@ -50,12 +50,17 @@ Use the first 10 minutes to answer these before new instruction:
 | 1 | Fetching data in React | 13 | 6 min | **Core in class** |
 | 2 | Intro to `useEffect` | 13 | 3 min | **Core in class** |
 | 3 | `useEffect()` syntax and default behavior | 13 | 4 min | **Core in class** |
+| 4 | `useEffect()` Dependencies array | 13 | 7 min | **Homework** |
+| 5 | `useEffect` empty dependencies array | 13 | 3 min | **Homework** |
+| 6 | `useEffect` quiz! | 13 | 5 min | **Homework** |
+| 7 | `useEffect` practice! | 13 | 5 min | **Homework** |
+| 8 | Meme Generator — Fetch Memes | 13 | 8 min | **Homework** |
 
-**Stop here (~25 min).** Items 4–14 in Module 13 (dependencies, Meme fetch, cleanup) continue in Guided Practice.
+**Stop in-class viewing after item 3 (~25 min).** Module 13 items 4–14 are **homework** (dependencies, Meme fetch, cleanup, refs).
 
 Skip [Module 14](https://www.coursera.org/learn/learn-react/home/module/14) (quiz) and modules 15–20 (Tenzies, Assembly: Endgame capstones) unless your teacher assigns optional extension.
 
-Button-triggered `fetch` with `async`/`await` (Phase 3 skill) is the class mission pattern; `useEffect` is previewed from Module 13 scrims above.
+Button-triggered `fetch` with `async`/`await` (Phase 3 skill) is the class mission pattern in Guided Practice; `useEffect` is introduced in the core items above.
 
 **Map the course to this project:**
 
@@ -111,6 +116,9 @@ Our group still needs help with...
 The teacher explains only the common stuck points before Guided Practice.
 
 ## Guided Practice (55–75 min)
+
+> [!IMPORTANT]
+> Close Coursera before this block. Build from the task list and your notes — no videos during hands-on practice.
 
 **Task:**
 

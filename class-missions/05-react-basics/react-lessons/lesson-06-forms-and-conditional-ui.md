@@ -6,7 +6,7 @@ By the end of this lesson, each student should be able to:
 
 1. Build a small React form with controlled inputs and submit handling.
 2. Use conditional rendering (`&&` or ternary) to show empty vs list states.
-3. Append new items to a projects array in state on form submit.
+3. Append new journal entries to the array in state on form submit.
 4. Explain when to lift state up to a parent component.
 5. Add empty-field validation during Exit Check.
 6. Submit daily evidence listed below.
@@ -15,7 +15,7 @@ By the end of this lesson, each student should be able to:
 
 ## Required Resource
 
-Open only the resource named in `Individual Learning`. **Self-study cap: 30 minutes maximum.** Items are split across Module 8 and Module 9 — do not watch the full modules.
+Open only the resource named in `Individual Learning`. **Self-study cap: 30 minutes maximum.** **Do not open Coursera during Guided Practice or Exit Check.**
 
 ## What to Focus On
 
@@ -50,8 +50,11 @@ Use the first 10 minutes to answer these before new instruction:
 | 19 | Chef Claude: Refactor form submission | 8 | 3 min | **Core in class** |
 | 2 | Conditional rendering: `&&` | 9 | 7 min | **Core in class** |
 | 5 | Conditional rendering: ternary | 9 | 5 min | **Core in class** |
+| 11 | Passing state as props | 9 | 7 min | **Homework** |
+| 12 | Setting state from child components | 9 | 8 min | **Homework** |
+| 13 | Passing data around React | 9 | 7 min | **Homework** |
 
-**Stop here (~27 min).** Items 11–13 (lifting state) may continue in Guided Practice. Item 16 (Form basics) is optional homework if you need extra form review.
+**Stop in-class viewing after item 5 (~27 min).** Items 11–13 are **homework**. Item 16 (Form basics) in Module 8 is optional homework if you need extra form review.
 
 Skip [Module 10](https://www.coursera.org/learn/learn-react/home/module/10) (API Integration) and Sound pads challenges — optional teacher extension only.
 
@@ -61,10 +64,10 @@ Skip [Module 11](https://www.coursera.org/learn/learn-react/home/module/11) (qui
 
 | Course concept | What to build in `react-practice/` |
 |---|---|
-| Add project form | Fields: title + description |
-| Projects in state | Move array from Lesson 4 into `useState` |
-| Empty state message | "No projects yet" when array is empty |
-| List when not empty | Map cards when array has items |
+| Add entry form | Fields: country, city, title (minimum) |
+| Entries in state | Move `journalData` from Lesson 4 into `useState` |
+| Empty state message | "No journal entries yet" when array is empty |
+| List when not empty | Map `<Entry />` when array has items |
 
 **Individual notes:**
 
@@ -85,7 +88,7 @@ Each student speaks once before anyone speaks twice. See [talk-robin-rules.md](.
 **Share:**
 
 1. One conditional UI pattern you will use
-2. How your form adds to the projects array
+2. How your form adds to the journal entries array
 3. One child-to-parent pattern (if using separate form component)
 4. One confusion or question
 
@@ -96,7 +99,7 @@ Each student speaks once before anyone speaks twice. See [talk-robin-rules.md](.
 **Group answer:**
 
 ```text
-Conditional UI helps our portfolio because...
+Conditional UI helps our journal section because...
 Our group still needs help with...
 ```
 
@@ -110,27 +113,35 @@ The teacher explains only the common stuck points before Guided Practice.
 
 ## Guided Practice (55–75 min)
 
+> [!IMPORTANT]
+> Close Coursera before this block. Build from the task list and your notes — no videos during hands-on practice.
+
 **Task:**
 
-1. Move projects array into state:
+1. Move journal entries array into state:
 
 ```jsx
-const [projects, setProjects] = useState([...initialProjects]);
+const [entries, setEntries] = useState([...initialJournalData]);
 ```
 
-2. Add a simple "Add project" form with title + description fields.
+2. Add a simple "Add entry" form with country, city, and title fields (add description if time allows).
 3. On submit:
 
 ```jsx
 function handleSubmit(e) {
   e.preventDefault();
-  const newProject = {
+  const newEntry = {
     id: Date.now(),
+    country,
+    city,
+    startDate: "",
+    endDate: "",
     title,
-    description,
-    status: "New"
+    description: description || ""
   };
-  setProjects((prev) => [...prev, newProject]);
+  setEntries((prev) => [...prev, newEntry]);
+  setCountry("");
+  setCity("");
   setTitle("");
   setDescription("");
 }
@@ -139,18 +150,18 @@ function handleSubmit(e) {
 4. Conditional UI:
 
 ```jsx
-{projects.length === 0 && <p>No projects yet. Add one above.</p>}
-{projects.length > 0 && (
-  projects.map((p) => <ProjectCard key={p.id} {...p} />)
+{entries.length === 0 && <p>No journal entries yet. Add one above.</p>}
+{entries.length > 0 && (
+  entries.map((entry) => <Entry key={entry.id} {...entry} />)
 )}
 ```
 
-5. Test: empty state → add one project → list appears.
-6. Commit with message: `Add project form with conditional list`.
+5. Test: empty state → add one entry → list appears. ReactFacts section still visible.
+6. Commit with message: `Add journal entry form with conditional list`.
 
 **Mission output:**
 
-- Form adds items to list in state
+- Form adds entries to the list in state
 - Empty vs list UI works
 - One meaningful commit on GitHub
 
@@ -162,7 +173,7 @@ function handleSubmit(e) {
 **Exit Check task:**
 
 1. Add validation: if title is empty, show error text under the form (conditional render).
-2. Do not add the project when title is empty.
+2. Do not add the entry when title is empty.
 3. Commit: `Add empty title validation`.
 
 **Exit prompts:**
@@ -181,7 +192,7 @@ Close full-solution references before this block. You may use your own short che
 
 ## Evidence to Submit (85–90 min)
 
-1. Screenshot: empty state and after adding one project
+1. Screenshot: empty state and after adding one journal entry
 2. GitHub link showing form + conditional render + array state
 3. Coursera Module 8–9 progress screenshot
 4. One sentence: "Lifting state helps because..."
@@ -190,7 +201,7 @@ Close full-solution references before this block. You may use your own short che
 
 You are successful if:
 
-1. Form adds items to the list in state.
+1. Form adds entries to the list in state.
 2. Conditional empty vs list UI works.
 3. Submit does not reload the page.
 4. You made a meaningful commit on GitHub.
