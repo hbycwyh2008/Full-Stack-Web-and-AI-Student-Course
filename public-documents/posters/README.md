@@ -97,4 +97,14 @@ Reflection template: `templates/ai-usage-reflection-template.md`
 
 ---
 
+## Presentations
+
+| Presentation | File | Use |
+|---|---|---|
+| **CS Expectations** | [cs-expectations-presentation.html](../presentations/cs-expectations-presentation.html) | Interactive slide deck — build, explain, rebuild, submit evidence |
+
+See [presentations/README.md](../presentations/README.md).
+
+---
+
 Educational materials in this folder are copyright © 2026 Wang Morgan. All Rights Reserved.

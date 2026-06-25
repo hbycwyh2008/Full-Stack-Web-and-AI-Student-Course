@@ -11,7 +11,7 @@ By the end of this lesson, each student should be able to:
 5. Commit first Next.js project with meaningful message.
 6. Submit [Learn Next.js Module 1](https://www.coursera.org/learn/learn-nextjs/home/module/1) evidence.
 
-> **Prerequisite:** [Lesson 7](../05-react-basics/lesson-07-useeffect-and-fetch.md) — `react-practice/` complete. Keep `react-practice/`; start a **new** folder for Next.js.
+> **Prerequisite:** [Lesson 7](../05-react-basics/react-lessons/lesson-07-useeffect-and-fetch.md) — `react-practice/` complete. Keep `react-practice/`; start a **new** folder for Next.js.
 
 ## Required Resource
 

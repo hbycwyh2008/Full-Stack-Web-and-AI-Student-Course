@@ -297,7 +297,7 @@ You are successful if:
 
 Fast track:
 
-If Phase 3 evidence is complete early, preview [Phase 4: React Basics](../../05-react-basics/) only if your teacher approves.
+If Phase 3 evidence is complete early, preview [Phase 4: React Basics](../../05-react-basics/react-lessons/) only if your teacher approves.
 
 Optional extra block (teacher-assigned):
 
@@ -311,6 +311,6 @@ Support track:
 
 ## After Phase 3
 
-Next: [Phase 4: React Basics](../../05-react-basics/)
+Next: [Phase 4: React Basics](../../05-react-basics/react-lessons/)
 
 Educational materials are copyright © 2026 Wang Morgan. All rights reserved. Students may use these materials for this course. Redistribution or commercial reuse requires permission.

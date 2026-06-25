@@ -4,6 +4,8 @@ This course is **not** a typing-along exercise. Students are expected to develop
 
 **Course posters:** [Classroom Flow](../public-documents/posters/classroom-flow.png) · [Mastery Level](../public-documents/posters/mastery-level.png) · [AI Use Policy](../public-documents/posters/ai-use-policy.png) · [Posters index](../public-documents/posters/README.md)
 
+**Course presentation:** [CS Expectations](../public-documents/presentations/cs-expectations-presentation.html) — build, explain, rebuild, submit evidence ([presentations index](../public-documents/presentations/README.md))
+
 > **Core expectation:** You may use AI and follow guided steps, but you must be able to explain what the code does, find and fix problems yourself, and show evidence of your own thinking.
 
 ---

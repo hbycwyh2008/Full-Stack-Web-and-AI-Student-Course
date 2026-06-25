@@ -149,7 +149,7 @@ Optional homework: [Figma UI/UX Essentials Pt.3 — Handoff](https://www.courser
 
 **Next phase:** TypeScript Basics — your teacher will share the formal course overview.
 
-**Class missions:** Continue [Front-end Phase 4 React & Next.js](../05-react-basics/) or teacher cohort map.
+**Class missions:** Continue [Front-end Phase 4 React & Next.js](../05-react-basics/react-lessons/) or teacher cohort map.
 
 Support track:
 

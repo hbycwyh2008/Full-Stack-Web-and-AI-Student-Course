@@ -68,6 +68,8 @@ Use: [student-troubleshooting-guide.md](../student-troubleshooting-guide.md).
 
 Running code once is not enough. Mastery means you can explain, rebuild, debug, modify, and apply the pattern.
 
+See the interactive slide deck: [CS Expectations](presentations/cs-expectations-presentation.html) (16 slides).
+
 ## AI Rule
 
 AI is allowed for hints, explanation, debugging, and review. You cannot submit AI-generated work you cannot explain. See [ai-use-policy.md](../ai-use-policy.md).
